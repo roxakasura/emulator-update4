@@ -1,0 +1,58 @@
+//Index   Group   ItemIndex   Name                                 Save   Type   Flag   Count   Value1   Value2   Value3   Value4
+1         1       *           "Greater Damage"                     1      0      0      *       *        *        *        * 
+2         2       *           "Greater Defense"                    1      0      0      *       *        *        *        * 
+3         3       *           "Elf Buffer"                         1      0      0      *       *        *        *        * 
+4         4       *           "Mana Shield"                        1      0      0      *       *        *        *        * 
+5         5       *           "Greater Critical Damage"            1      0      0      *       *        *        *        * 
+6         6       *           "Infinity Arrrow"                    1      0      0      *       *        *        *        * 
+7         7       *           "BP Recovery"                        0      0      0      *       *        *        *        * 
+8         8       *           "Greater Life"                       1      0      0      *       *        *        *        * 
+9         9       *           "Greater Mana"                       1      0      0      *       *        *        *        * 
+10        10      *           "Bless Potion"                       1      0      0      *       *        *        *        * 
+11        11      *           "Soul Potion"                        1      0      0      *       *        *        *        * 
+12        12      *           "Disable Magic"                      0      0      0      *       *        *        *        * 
+13        13      *           "Castle Gate State"                  0      0      0      *       *        *        *        * 
+14        14      *           "Guild State 1"                      0      0      0      *       *        *        *        * 
+15        14      *           "Guild State 2"                      0      0      0      *       *        *        *        * 
+16        14      *           "Guild State 3"                      0      0      0      *       *        *        *        * 
+17        14      *           "Guild State 4"                      0      0      0      *       *        *        *        * 
+18        15      *           "Invisibility"                       0      0      0      *       *        *        *        * 
+19        16      *           "Guild State 5"                      0      0      0      *       *        *        *        * 
+20        17      *           "Guild State 6"                      0      0      0      *       *        *        *        * 
+21        18      *           "Crywolf State 1"                    0      0      0      *       *        *        *        * 
+22        18      *           "Crywolf State 2"                    0      0      0      *       *        *        *        * 
+23        18      *           "Crywolf State 3"                    0      0      0      *       *        *        *        * 
+24        18      *           "Crywolf State 4"                    0      0      0      *       *        *        *        * 
+25        18      *           "Crywolf State 5"                    0      0      0      *       *        *        *        * 
+26        18      *           "Crywolf State 6"                    0      0      0      *       *        *        *        * 
+27        19      *           "Crywolf State 7"                    0      0      0      *       *        *        *        * 
+28        20      *           "Game Master"                        0      1      0      *       *        *        *        * 
+29        60      6699        "Seal of Ascension"                  1      2      0      1800    50       *        *        * 
+30        61      6700        "Seal of Wealth"                     1      2      0      1800    100      50       *        * 
+31        62      6701        "Seal of Sustenance"                 1      2      0      1800    *        *        *        * 
+32        22      *           "Order of Speed"                     0      0      0      *       *        *        *        * 
+33        22      *           "Order of Sublimation"               0      0      0      *       *        *        *        * 
+34        22      *           "Order of Protection"                0      0      0      *       *        *        *        * 
+35        23      7214        "Halloween 1"                        0      1      0      1800    10       *        *        * 
+36        24      7215        "Halloween 2"                        0      1      0      1800    25       *        *        * 
+37        25      7216        "Halloween 3"                        0      1      0      1800    100      *        *        * 
+38        26      7217        "Halloween 4"                        0      1      0      1800    500      *        *        * 
+39        27      7218        "Halloween 5"                        0      1      0      1800    600      *        *        * 
+55        27      *           "Poison"                             0      0      1      *       *        *        *        * 
+56        28      *           "Ice"                                0      0      1      *       *        *        *        *  
+57        29      *           "Ice Arrow"                          0      0      1      *       *        *        *        * 
+58        30      *           "Fire Slash"                         1      0      1      *       *        *        *        * 
+59        31      *           "Physi Damage Immunity"              0      0      0      *       *        *        *        * 
+60        32      *           "Magic Damage Immunity"              0      0      0      *       *        *        *        * 
+61        33      *           "Stern"                              0      0      1      *       *        *        *        * 
+62        34      *           "Magic Defense"                      0      0      0      *       *        *        *        * 
+63        35      *           "Monster Physi Damage Immunity"      0      0      0      *       *        *        *        * 
+64        36      *           "Monster Magic Damage Immunity"      0      0      0      *       *        *        *        * 
+65        37      *           "Order of Restraint"                 0      0      1      *       *        *        *        * 
+66        38      *           "Crywolf State 8"                    0      0      0      *       *        *        *        * 
+67        38      *           "Crywolf State 9"                    0      0      0      *       *        *        *        * 
+68        38      *           "Crywolf State 10"                   0      0      0      *       *        *        *        * 
+69        38      *           "Crywolf State 11"                   0      0      0      *       *        *        *        * 
+70        38      *           "Crywolf State 12"                   0      0      0      *       *        *        *        * 
+71        39      *           "Damage Reflect"                     1      0      0      *       *        *        *        * 
+end

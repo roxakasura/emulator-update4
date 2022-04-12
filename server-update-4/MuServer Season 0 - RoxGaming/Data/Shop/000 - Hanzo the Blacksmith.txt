@@ -1,0 +1,23 @@
+//Section   Type   Level   Dur   Skill   Luck   Option   Excellent
+         6       1       7       255        1         1         1         0    // Horn Shield
+         6       2       7       255        1         1         1         0    // Kite Shield
+         6       6       7       255        1         1         1         0    // Skull Shield
+         6       10      7       255        1         1         1         0    // Large Round Shield
+         6       9       7       255        1         1         1         0    // Plate Shield
+         6       7       7       255        1         1         1         0    // Spike Shield
+         6       5       7       255        1         1         1         0    // Dragon Slayer Shield
+         6       8       7       255        1         1         1         0    // Tower Shield
+         0       2       7       255        1         1         1         0    // Rapier
+         0       4       7       255        1         1         1         0    // Sword Of Assassin
+         0       3       7       255        1         1         1         0    // Katana
+         0       6       7       255        1         1         1         0    // Gladius
+         0       7       7       255        1         1         1         0    // Falchion
+         0       8       7       255        1         1         1         0    // Serpant Sword
+         0       9       7       255        1         1         1         0    // Sword of Salamander
+         0       10      7       255        1         1         1         0    // Light Saber
+         0       11      7       255        1         1         1         0    // Legendary Sword
+         0       15      7       255        1         1         1         0    // Giant Sword
+         0       13      7       255        1         1         1         0    // Double Blade
+         0       16      7       255        1         1         1         0    // Sword of Destruction
+end
+

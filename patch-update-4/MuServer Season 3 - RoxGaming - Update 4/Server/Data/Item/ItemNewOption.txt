@@ -1,0 +1,9 @@
+0
+//ItemIndex   Index
+6344		1
+end
+
+1
+//Index   Option1   Value1   Option2   Value2   Option3   Value3   Option4   Value4   Option5   Value5   Option6   Value6   Option7   Value7   Option8   Value8   Option9   Value9   Option10   Value10   
+1	  11	    1000000  12	       1000000	*	  *	   *	     *	      *		*	 *	   *	    *	      *	       *	 *	  *	    *	     *		*
+end	

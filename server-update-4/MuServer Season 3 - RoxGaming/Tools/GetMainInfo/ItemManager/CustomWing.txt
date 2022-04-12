@@ -1,0 +1,3 @@
+//Index   ItemIndex  IncDamageConstA   IncDamageConstB   DecDamageConstA   DecDamageConstB  ModelType   ModelName
+0         6344       190               1                 19                1		    	0   		"alaevobkv2"
+end

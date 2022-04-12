@@ -1,0 +1,524 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source\PrintPlayer">
+      <UniqueIdentifier>{8e2f6929-70bf-40c8-9651-11d4bdc50a76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Protocol">
+      <UniqueIdentifier>{c8636497-5d8d-48ac-afe5-d940bc3c7fd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Resolution">
+      <UniqueIdentifier>{edd3d093-b6b4-4f77-a908-750af7117b79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\RightClick">
+      <UniqueIdentifier>{07093c93-11a3-4af5-a26f-aee633ac98f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\TMemory">
+      <UniqueIdentifier>{9dbcbcc5-4554-41fa-9eff-d90e65593c98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ToolKit">
+      <UniqueIdentifier>{50022d06-aae3-4b0c-8b15-ad6103e6ee51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Main">
+      <UniqueIdentifier>{98880001-da4d-4aab-8a9c-b1a35642323f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Util">
+      <UniqueIdentifier>{1e949360-8794-474e-a591-ff415c37103d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Stdafx">
+      <UniqueIdentifier>{c80cfb58-8b28-4925-8347-3c401e84e83b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Library">
+      <UniqueIdentifier>{46419a2b-12be-4aaf-bc41-a72fd90f0511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CRC">
+      <UniqueIdentifier>{f8ec91ac-2094-404b-91b7-543657d2a593}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Protect">
+      <UniqueIdentifier>{6f32be9f-5b65-44bd-93b0-99aa5262e2de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Interface">
+      <UniqueIdentifier>{3c3c9f46-e468-4fa8-96af-3c954a8a44fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\PacketManager">
+      <UniqueIdentifier>{f5b19027-3821-4604-9d0a-2838fe008905}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Reconnect">
+      <UniqueIdentifier>{93f001e0-df9f-4f06-849b-5c9c0427786b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\HackCheck">
+      <UniqueIdentifier>{cd41aa45-3696-455a-9232-40f564bd340e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\User">
+      <UniqueIdentifier>{cf2bf807-8e64-4efd-b194-1f573f5fc485}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Item">
+      <UniqueIdentifier>{f10c5f74-575e-4ad5-a40d-f70d908515db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Item\CustomItem">
+      <UniqueIdentifier>{acd0d761-1d38-4460-8d49-04f8ef899b0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Item\ItemManager">
+      <UniqueIdentifier>{1aea6c70-f248-4765-bb4d-4f2b405c91ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Item\CustomWing">
+      <UniqueIdentifier>{82c0af2c-41df-403c-bc29-d2c265074314}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Item\CustomWing\Wings">
+      <UniqueIdentifier>{0d98bc4a-d11d-41ba-9a21-7927e9409ee4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Item\CustomWing\WingsEffects">
+      <UniqueIdentifier>{4b25d94b-08bb-4d41-bf95-b917cc639044}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Item\CustomJewel">
+      <UniqueIdentifier>{623d788f-006a-4332-b4e7-969107073b79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Camera3D">
+      <UniqueIdentifier>{d935e812-def6-4635-bbe6-459dce300eff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Controller">
+      <UniqueIdentifier>{1348bb5a-cfc2-44a8-bac8-a35f00d0dd90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Customs">
+      <UniqueIdentifier>{70fd0df6-ed29-4114-aa3a-5b3717bd8b5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Customs\SelectCharAnimate">
+      <UniqueIdentifier>{f802c794-6f16-4ec8-9e6a-eec166d364eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Customs\Minimap">
+      <UniqueIdentifier>{fd0fe386-6628-43bb-af2c-94f0022c6572}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Customs\Maps">
+      <UniqueIdentifier>{a9c83fb1-02d4-48a7-9967-0147d6923c06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Customs\ItemDescription">
+      <UniqueIdentifier>{fed96347-770c-449d-80aa-6e36bbafdbed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Font">
+      <UniqueIdentifier>{d9f4d392-a6bb-480d-a375-5210c365008a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Customs\WeaponFix">
+      <UniqueIdentifier>{c7597754-7e31-45ef-95e9-48422a1751bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Customs\ServerInfo">
+      <UniqueIdentifier>{067944ab-1219-42b4-89af-10fae56a143a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Customs\Effects">
+      <UniqueIdentifier>{02c82e15-18c0-4bd3-ac90-4f840f0138bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Customs\Effects\Smoke">
+      <UniqueIdentifier>{1c6abb87-d7e2-4fff-ac71-649c39f5af11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Customs\Effects\ItemEffect">
+      <UniqueIdentifier>{6e6bb92b-f433-4fa5-afb8-5e1b9c4dcf03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\BMD">
+      <UniqueIdentifier>{1a3db0a4-43d3-429f-a54a-d27ac0e38dec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Customs\Effects\ItemEffect\Dynamic">
+      <UniqueIdentifier>{13f23bad-035d-4d45-a2da-4df12c5c0321}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Customs\Effects\ItemEffect\Static">
+      <UniqueIdentifier>{f8cb8116-314d-47a2-b498-068dc84228d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Customs\PlayerSystem">
+      <UniqueIdentifier>{9caea958-8c31-40dc-b045-f3a11115797c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Item\PcPoint">
+      <UniqueIdentifier>{94f1529e-26e3-44da-a91f-976fbdac460d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SelectCharS13">
+      <UniqueIdentifier>{91e64483-ff04-4b8f-94c9-3bc7b6f238fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Customs\CtrlChar">
+      <UniqueIdentifier>{3a46356f-64ff-42d1-b8e3-909e7dc04c10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Console">
+      <UniqueIdentifier>{ce4e5bed-8027-42a6-a02f-4dea2cc4b435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Customs\EventTime">
+      <UniqueIdentifier>{e3c90035-7bdb-4519-bdb7-058cfd438759}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Experience">
+      <UniqueIdentifier>{66e9a459-ed4e-4d8c-b84a-c46bbadf59b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Item\ItemPosition">
+      <UniqueIdentifier>{9eb017bc-e4fa-40aa-8669-9e4e0101c509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Customs\Monster">
+      <UniqueIdentifier>{ab7524a0-dc82-43bf-af0e-bd0451db758f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Customs\Monster\CustomMonster">
+      <UniqueIdentifier>{8098aaea-bb58-4ae0-8ea1-ffbd0cec9a3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Customs\Monster\Monster">
+      <UniqueIdentifier>{078f40fd-e836-452e-8ea9-c0f04e057365}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Common">
+      <UniqueIdentifier>{9af0aee0-b3df-48c3-909c-86190eac1a0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\TrayMode">
+      <UniqueIdentifier>{9a87b3d7-7814-429b-b6fe-33d9953fc88e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Customs\Maps\Maps">
+      <UniqueIdentifier>{642d30fa-4b14-4855-9a07-8eedfd25a17d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Customs\Maps\CustomMap">
+      <UniqueIdentifier>{b4c067a4-7888-4078-aabb-aacd9176d7d3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Main\PrintPlayer.h">
+      <Filter>Source\PrintPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\Protocol.h">
+      <Filter>Source\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\Resolution.h">
+      <Filter>Source\Resolution</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\RightClick.h">
+      <Filter>Source\RightClick</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\TMemory.h">
+      <Filter>Source\TMemory</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\ToolKit.h">
+      <Filter>Source\ToolKit</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\Util.h">
+      <Filter>Source\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\utils.h">
+      <Filter>Source\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\stdafx.h">
+      <Filter>Source\Stdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\main.h">
+      <Filter>Source\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\glaux.h">
+      <Filter>Source\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\glut.h">
+      <Filter>Source\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Util\CCRC32.H">
+      <Filter>Source\CRC</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\Protect.h">
+      <Filter>Source\Protect</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\Interface.h">
+      <Filter>Source\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\PacketManager.h">
+      <Filter>Source\PacketManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\Reconnect.h">
+      <Filter>Source\Reconnect</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\HackCheck.h">
+      <Filter>Source\HackCheck</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\User.h">
+      <Filter>Source\User</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\ItemManager.h">
+      <Filter>Source\Item\ItemManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\CustomItem.h">
+      <Filter>Source\Item\CustomItem</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\CustomWing.h">
+      <Filter>Source\Item\CustomWing\Wings</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\CustomJewel.h">
+      <Filter>Source\Item\CustomJewel</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\Camera3D.h">
+      <Filter>Source\Camera3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\Controller.h">
+      <Filter>Source\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\SelectCharAnimation.h">
+      <Filter>Source\Customs\SelectCharAnimate</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\Minimap.h">
+      <Filter>Source\Customs\Minimap</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\ItemDescription.h">
+      <Filter>Source\Customs\ItemDescription</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\Font.h">
+      <Filter>Source\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\WeaponFix.h">
+      <Filter>Source\Customs\WeaponFix</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\ServerInfo.h">
+      <Filter>Source\Customs\ServerInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\ReadScript.h">
+      <Filter>Source\Customs\ServerInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\ItemSmoke.h">
+      <Filter>Source\Customs\Effects\Smoke</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\Testando.h">
+      <Filter>Source\Customs\Effects\Smoke</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\EffectManager.h">
+      <Filter>Source\Customs\Effects\ItemEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\MemScript.h">
+      <Filter>Source\Customs\Effects\ItemEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\MathLib.h">
+      <Filter>Source\Customs\Effects\ItemEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\StaticEffect.h">
+      <Filter>Source\Customs\Effects\ItemEffect\Static</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\DynamicEffect.h">
+      <Filter>Source\Customs\Effects\ItemEffect\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\BMD.h">
+      <Filter>Source\BMD</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\PlayerSystem.h">
+      <Filter>Source\Customs\PlayerSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\PcPoint.h">
+      <Filter>Source\Item\PcPoint</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\SelectServerS13.h">
+      <Filter>Source\SelectCharS13</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\CtrlChar.h">
+      <Filter>Source\Customs\CtrlChar</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\Console.h">
+      <Filter>Source\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\procesos.h">
+      <Filter>Source\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\EventTime.h">
+      <Filter>Source\Customs\EventTime</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\Experience.h">
+      <Filter>Source\Experience</Filter>
+    </ClInclude>
+    <ClInclude Include="main\ItemPosition.h">
+      <Filter>Source\Item\ItemPosition</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\CustomMonster.h">
+      <Filter>Source\Customs\Monster\CustomMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\Monster.h">
+      <Filter>Source\Customs\Monster\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\Common.h">
+      <Filter>Source\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\TrayMode.h">
+      <Filter>Source\TrayMode</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\NewMaps.h">
+      <Filter>Source\Customs\Maps\Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\CustomMap.h">
+      <Filter>Source\Customs\Maps\CustomMap</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main\PrintPlayer.cpp">
+      <Filter>Source\PrintPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\Protocol.cpp">
+      <Filter>Source\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\Resolution.cpp">
+      <Filter>Source\Resolution</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\RightClick.cpp">
+      <Filter>Source\RightClick</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\TMemory.cpp">
+      <Filter>Source\TMemory</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\ToolKit.cpp">
+      <Filter>Source\ToolKit</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\main.cpp">
+      <Filter>Source\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\Util.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\utils.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Util\CCRC32.Cpp">
+      <Filter>Source\CRC</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\Protect.cpp">
+      <Filter>Source\Protect</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\Interface.cpp">
+      <Filter>Source\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\PacketManager.cpp">
+      <Filter>Source\PacketManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\Reconnect.cpp">
+      <Filter>Source\Reconnect</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\HackCheck.cpp">
+      <Filter>Source\HackCheck</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\User.cpp">
+      <Filter>Source\User</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\ItemManager.cpp">
+      <Filter>Source\Item\ItemManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\CustomItem.cpp">
+      <Filter>Source\Item\CustomItem</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\CustomWing.cpp">
+      <Filter>Source\Item\CustomWing\Wings</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\CustomJewel.cpp">
+      <Filter>Source\Item\CustomJewel</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\Camera3D.cpp">
+      <Filter>Source\Camera3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\Controller.cpp">
+      <Filter>Source\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\SelectCharAnimation.cpp">
+      <Filter>Source\Customs\SelectCharAnimate</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\Minimap.cpp">
+      <Filter>Source\Customs\Minimap</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\ItemDescription.cpp">
+      <Filter>Source\Customs\ItemDescription</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\Font.cpp">
+      <Filter>Source\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\WeaponFix.cpp">
+      <Filter>Source\Customs\WeaponFix</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\ServerInfo.cpp">
+      <Filter>Source\Customs\ServerInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\ItemSmoke.cpp">
+      <Filter>Source\Customs\Effects\Smoke</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\Testando.cpp">
+      <Filter>Source\Customs\Effects\Smoke</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\EffectManager.cpp">
+      <Filter>Source\Customs\Effects\ItemEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\MemScript.cpp">
+      <Filter>Source\Customs\Effects\ItemEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\MathLib.cpp">
+      <Filter>Source\Customs\Effects\ItemEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\StaticEffect.cpp">
+      <Filter>Source\Customs\Effects\ItemEffect\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\DynamicEffect.cpp">
+      <Filter>Source\Customs\Effects\ItemEffect\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\BMD.cpp">
+      <Filter>Source\BMD</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\PlayerSystem.cpp">
+      <Filter>Source\Customs\PlayerSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\PcPoint.cpp">
+      <Filter>Source\Item\PcPoint</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\SelectServerS13.cpp">
+      <Filter>Source\SelectCharS13</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\CtrlChar.cpp">
+      <Filter>Source\Customs\CtrlChar</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\Console.cpp">
+      <Filter>Source\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\EventTime.cpp">
+      <Filter>Source\Customs\EventTime</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\Experience.cpp">
+      <Filter>Source\Experience</Filter>
+    </ClCompile>
+    <ClCompile Include="main\ItemPosition.cpp">
+      <Filter>Source\Item\ItemPosition</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\CustomMonster.cpp">
+      <Filter>Source\Customs\Monster\CustomMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\Monster.cpp">
+      <Filter>Source\Customs\Monster\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\Common.cpp">
+      <Filter>Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\TrayMode.cpp">
+      <Filter>Source\TrayMode</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\NewMaps.cpp">
+      <Filter>Source\Customs\Maps\Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\CustomMap.cpp">
+      <Filter>Source\Customs\Maps\CustomMap</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Main\glut32.dll">
+      <Filter>Source\Library</Filter>
+    </None>
+    <None Include="Main\glut.def">
+      <Filter>Source\Library</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Main\VMProtectSDK32.lib">
+      <Filter>Source\Library</Filter>
+    </Library>
+    <Library Include="Main\glut32.lib">
+      <Filter>Source\Library</Filter>
+    </Library>
+    <Library Include="Main\cg.lib">
+      <Filter>Source\Library</Filter>
+    </Library>
+    <Library Include="Main\cgGL.lib">
+      <Filter>Source\Library</Filter>
+    </Library>
+    <Library Include="Main\detoured.lib">
+      <Filter>Source\Library</Filter>
+    </Library>
+    <Library Include="Main\detours.lib">
+      <Filter>Source\Library</Filter>
+    </Library>
+    <Library Include="Main\Glaux.lib">
+      <Filter>Source\Library</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

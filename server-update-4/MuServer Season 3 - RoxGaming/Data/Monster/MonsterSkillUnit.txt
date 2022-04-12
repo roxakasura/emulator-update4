@@ -1,0 +1,31 @@
+0
+//Index   Name                                 TargetType   ScopeType   ScopeValue   Delay   Slot1   Slot2   Slot3   Slot4   Slot5
+1         "Monster Skill Unit"                 1            0           6            300     1       *       *       *       * 
+2         "Monster Skill Unit"                 1            0           6            300     14      7       *       *       * 
+3         "Monster Skill Unit"                 1            0           6            300     11      *       *       *       * 
+4         "Monster Skill Unit"                 1            *           0            300     17      23      *       *       * 
+5         "Monster Skill Unit"                 1            *           0            300     3       *       *       *       * 
+6         "Monster Skill Unit"                 2            *           0            300     16      *       *       *       * 
+7         "Monster Skill Unit"                 2            *           0            300     13      *       *       *       * 
+8         "Monster Skill Unit"                 1            *           0            300     1       *       *       *       * 
+9         "Monster Skill Unit"                 1            *           0            300     17      *       *       *       * 
+10        "Monster Skill Unit"                 1            *           0            300     3       4       *       *       * 
+11        "Monster Skill Unit"                 1            0           6            300     7       *       *       *       * 
+12        "Monster Skill Unit"                 1            0           6            300     7       1       17      *       * 
+13        "Monster Skill Unit"                 1            0           6            300     7       1       1       *       * 
+14        "Monster Skill Unit"                 1            1           6            300     24      *       *       *       * 
+15        "Monster Skill Unit"                 1            0           6            300     25      *       *       *       * 
+16        "Monster Skill Unit"                 1            *           0            300     26      27      *       *       * 
+17        "Monster Skill Unit"                 1            *           0            300     28      *       *       *       * 
+18        "Monster Skill Unit"                 1            *           0            300     29      30      *       *       * 
+19        "Monster Skill Unit"                 1            1           6            300     31      *       *       *       * 
+20        "Monster Skill Unit"                 2            *           0            300     *       *       *       *       * 
+21        "Monster Skill Unit"                 1            0           6            300     32      33      *       *       * 
+22        "Monster Skill Unit"                 2            *           0            300     34      *       *       *       * 
+23        "Monster Skill Unit"                 1            0           6            300     35      36      37      *       * 
+24        "Monster Skill Unit"                 1            1           6            300     38      *       *       *       * 
+25        "Monster Skill Unit"                 1            *           0            300     39      40      *       *       * 
+26        "Monster Skill Unit"                 1            *           0            300     41      42      *       *       * 
+27        "Monster Skill Unit"                 1            *           0            300     1       *       *       *       * 
+28        "Monster Skill Unit"                 1            *           0            300     8       1       *       *       * 
+end

@@ -1,0 +1,42 @@
+//=================================================================================================================
+// Custom Auto Quiz System
+//=================================================================================================================
+0
+//Index   Year   Month   Day   DoW   Hour   Minute   Second
+0         *      *       *     *     00     58       0
+end
+
+1
+//Index   Name                       AlarmTime   EventTime
+0         "Quiz"                        5           3
+end
+
+
+//=================================================================================================================
+// Questions
+//=================================================================================================================
+//  ID  	->  Question ID
+//  WC 		->  Premiação em WCoinC
+//  WP      	->  Premiação em WCoinP
+//  GP      	->  Premiação em Goblin Point
+//  Question   	->  Pergunta
+//  Answer   	->  Resposta
+//=================================================================================================================
+// Obs: Evite usar respostas que possuem acentos. 
+//=================================================================================================================
+//=================================================================================================================
+//       #ID     #WC     #WP	 #GP         #Question				      		        #Answer		 
+//=================================================================================================================
+2
+	  0      100      0       0	     "Cidade Maravilhosa?"					"Rio de Janeiro"	
+	  1      100      0       0	     "Maior país do mundo?"					"Russia"
+	  2      100      0       0	     "Menor país do mundo?"					"Vaticano"
+	  3      100      0       0	     "Um dos maiores cientistas do mundo?"			"Albert Einstein"
+	  4      100      0       0	     "Quantas vezes o Brasil foi campeão mundial(futebol)?"	"5"
+	  5      100      0       0	     "Em que ano foi lançado o jogo Mu Online?"			"2003"
+	  6      100      0       0	     "Qual a moeda oficial do Japao?"				"Iene"
+	  7      100      0       0	     "Qual o menor estado brasileiro"				"Sergipe"
+	  8      100      0       0	     "Quando um jogador é novato, qual nome lhe damos?"		"Noob"
+	  9      100      0       0	     "Quantos estados tem o Brasil?"				"26"
+	  10     100      0       0	     "Em que continente fica localizada a Itália?"		"Continente Europeu"
+end

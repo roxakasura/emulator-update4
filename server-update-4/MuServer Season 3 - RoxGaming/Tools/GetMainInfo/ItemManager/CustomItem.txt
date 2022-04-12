@@ -1,0 +1,3 @@
+//Index   ColorR   ColorG   ColorB   	ModelName
+32        255      0        0      	"MaceOfKing"	
+end                         

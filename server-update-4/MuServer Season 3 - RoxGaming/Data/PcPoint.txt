@@ -1,0 +1,10 @@
+//Section  Level   Dur   Skill   Luck   Option   Excellent   Price	
+   6670     0      0       0        0         0         0       20 
+   6174     0      0       0        0         0         0       20 
+   6175     0      0       0        0         0         0       20 
+   
+   6149     11      0       0       1         2         0       30
+   6148     11      0       0       1         2         0       30
+   6147     11      0       0       1         2         0       30 
+end
+

@@ -1,0 +1,13 @@
+// ----------------------------------------------------------------------------------
+//  Server Number - Number of the SubServer (ServerCode + 1)
+//  Server Name - Name of the Server in the Data/Local/ServerList.bmd
+//  Server New Text - Text on show in the Select Server
+//
+//
+//  Examples!
+//
+//	Server		Server		Server
+//	Number		Name		New Text
+// ----------------------------------------------------------------------------------
+	1		"RoxGaming"		"RoxGaming Principal"
+end

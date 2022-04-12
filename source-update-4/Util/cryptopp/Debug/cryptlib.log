@@ -1,0 +1,168 @@
+﻿Build started 03/11/2014 22:08:15.
+     1>Project "C:\X-Team Studio\SOURCE\Util\cryptopp\cryptlib.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching ".\Debug\cryptlib.unsuccessfulbuild".
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oi /Oy- /D _DEBUG /D _WINDOWS /D USE_PRECOMPILED_HEADERS /D WIN32 /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm- /EHsc /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /GR /Yu"pch.h" /Fp".\Debug\cryptlib.pch" /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt squaretb.cpp strciphr.cpp tea.cpp tftables.cpp tiger.cpp tigertab.cpp trdlocal.cpp ttmac.cpp twofish.cpp vmac.cpp wait.cpp wake.cpp whrlpool.cpp winpipes.cpp xtr.cpp xtrcrypt.cpp zdeflate.cpp zinflate.cpp zlib.cpp  /Zm400   /Zm400 
+         squaretb.cpp
+         strciphr.cpp
+         tea.cpp
+         tftables.cpp
+         tiger.cpp
+         tigertab.cpp
+         trdlocal.cpp
+         ttmac.cpp
+         twofish.cpp
+         vmac.cpp
+         wait.cpp
+         wake.cpp
+         whrlpool.cpp
+         winpipes.cpp
+         xtr.cpp
+         xtrcrypt.cpp
+         zdeflate.cpp
+         zinflate.cpp
+         zlib.cpp
+         Generating Code...
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oi /Oy- /D _DEBUG /D _WINDOWS /D USE_PRECOMPILED_HEADERS /D WIN32 /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm- /EHsc /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt dll.cpp iterhash.cpp  /Zm400   /Zm400 
+         dll.cpp
+         iterhash.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:".\Debug\cryptlib.lib" /NOLOGO .\Debug\3way.obj
+         .\Debug\adler32.obj
+         .\Debug\algebra.obj
+         .\Debug\algparam.obj
+         .\Debug\arc4.obj
+         .\Debug\asn.obj
+         .\Debug\authenc.obj
+         .\Debug\base32.obj
+         .\Debug\base64.obj
+         .\Debug\basecode.obj
+         .\Debug\bfinit.obj
+         .\Debug\blowfish.obj
+         .\Debug\blumshub.obj
+         .\Debug\camellia.obj
+         .\Debug\cast.obj
+         .\Debug\casts.obj
+         .\Debug\cbcmac.obj
+         .\Debug\ccm.obj
+         .\Debug\channels.obj
+         .\Debug\cmac.obj
+         .\Debug\cpu.obj
+         .\Debug\crc.obj
+         .\Debug\cryptlib.obj
+         .\Debug\default.obj
+         .\Debug\des.obj
+         .\Debug\dessp.obj
+         .\Debug\dh.obj
+         .\Debug\dh2.obj
+         .\Debug\dll.obj
+         .\Debug\dsa.obj
+         .\Debug\eax.obj
+         .\Debug\ec2n.obj
+         .\Debug\eccrypto.obj
+         .\Debug\ecp.obj
+         .\Debug\elgamal.obj
+         .\Debug\emsa2.obj
+         .\Debug\eprecomp.obj
+         .\Debug\esign.obj
+         .\Debug\files.obj
+         .\Debug\filters.obj
+         .\Debug\fips140.obj
+         .\Debug\fipstest.obj
+         .\Debug\gcm.obj
+         .\Debug\gf256.obj
+         .\Debug\gf2_32.obj
+         .\Debug\gf2n.obj
+         .\Debug\gfpcrypt.obj
+         .\Debug\gost.obj
+         .\Debug\gzip.obj
+         .\Debug\hex.obj
+         .\Debug\hmac.obj
+         .\Debug\hrtimer.obj
+         .\Debug\ida.obj
+         .\Debug\idea.obj
+         .\Debug\integer.obj
+         .\Debug\iterhash.obj
+         .\Debug\luc.obj
+         .\Debug\mars.obj
+         .\Debug\marss.obj
+         .\Debug\md2.obj
+         .\Debug\md4.obj
+         .\Debug\md5.obj
+         .\Debug\misc.obj
+         .\Debug\modes.obj
+         .\Debug\mqueue.obj
+         .\Debug\mqv.obj
+         .\Debug\nbtheory.obj
+         .\Debug\network.obj
+         .\Debug\oaep.obj
+         .\Debug\osrng.obj
+         .\Debug\panama.obj
+         .\Debug\pch.obj
+         .\Debug\pkcspad.obj
+         .\Debug\polynomi.obj
+         .\Debug\pssr.obj
+         .\Debug\pubkey.obj
+         .\Debug\queue.obj
+         .\Debug\rabin.obj
+         .\Debug\randpool.obj
+         .\Debug\rc2.obj
+         .\Debug\rc5.obj
+         .\Debug\rc6.obj
+         .\Debug\rdtables.obj
+         .\Debug\rijndael.obj
+         .\Debug\ripemd.obj
+         .\Debug\rng.obj
+         .\Debug\rsa.obj
+         .\Debug\rw.obj
+         .\Debug\safer.obj
+         .\Debug\salsa.obj
+         .\Debug\seal.obj
+         .\Debug\seed.obj
+         .\Debug\serpent.obj
+         .\Debug\sha.obj
+         .\Debug\sha3.obj
+         .\Debug\shacal2.obj
+         .\Debug\shark.obj
+         .\Debug\sharkbox.obj
+         .\Debug\simple.obj
+         .\Debug\skipjack.obj
+         .\Debug\socketft.obj
+         .\Debug\sosemanuk.obj
+         .\Debug\square.obj
+         .\Debug\squaretb.obj
+         .\Debug\strciphr.obj
+         .\Debug\tea.obj
+         .\Debug\tftables.obj
+         .\Debug\tiger.obj
+         .\Debug\tigertab.obj
+         .\Debug\trdlocal.obj
+         .\Debug\ttmac.obj
+         .\Debug\twofish.obj
+         .\Debug\vmac.obj
+         .\Debug\wait.obj
+         .\Debug\wake.obj
+         .\Debug\whrlpool.obj
+         .\Debug\winpipes.obj
+         .\Debug\xtr.obj
+         .\Debug\xtrcrypt.obj
+         .\Debug\zdeflate.obj
+         .\Debug\zinflate.obj
+         .\Debug\zlib.obj
+     1>eprecomp.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>eccrypto.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         cryptlib.vcxproj -> C:\X-Team Studio\SOURCE\Util\cryptopp\.\Debug\cryptlib.lib
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\cryptlib.unsuccessfulbuild".
+         Touching ".\Debug\cryptlib.lastbuildstate".
+     1>Done Building Project "C:\X-Team Studio\SOURCE\Util\cryptopp\cryptlib.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:49.14

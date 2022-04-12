@@ -1,0 +1,129 @@
+[GameServerInfo]
+;==================================================
+; CS Skills in All Maps
+;==================================================
+EnableCsSkillsAllMaps = 1
+
+;==================================================
+; Remove Push of the skills
+;==================================================
+DisableLightningEffect  = 1
+DisableCycloneEffect  = 1
+DisableTwistEffect  = 1
+DisableLungEffect  = 1
+DisableFallingEffect  = 1
+DisableUpperCutEffect  = 1
+
+;==================================================
+; Mana Shield Skill Settings
+;==================================================
+ManaShieldConstA = 10
+ManaShieldConstB = 50
+ManaShieldConstC = 200
+ManaShieldRateDW = 100
+ManaShieldRateDK = 100
+ManaShieldRateFE = 100
+ManaShieldRateMG = 100
+ManaShieldRateDL = 100
+ManaShieldTimeConstA = 60
+ManaShieldTimeConstB = 40
+ManaShieldMaxRate = 50
+
+;==================================================
+; Defense Skill Settings
+;==================================================
+DefenseConstA = 50
+DefenseTimeConstA = 4
+
+;==================================================
+; Heal Skill Settings
+;==================================================
+HealConstA = 5
+HealConstB = 5
+
+;==================================================
+; Greater Defense Skill Settings
+;==================================================
+GreaterDefenseConstA = 2
+GreaterDefenseConstB = 8
+GreaterDefenseRateDW = 100
+GreaterDefenseRateDK = 100
+GreaterDefenseRateFE = 100
+GreaterDefenseRateMG = 100
+GreaterDefenseRateDL = 100
+GreaterDefenseTimeConstA = 60
+
+;==================================================
+; Greater Damage Skill Settings
+;==================================================
+GreaterDamageConstA = 3
+GreaterDamageConstB = 7
+GreaterDamageRateDW = 100
+GreaterDamageRateDK = 100
+GreaterDamageRateFE = 100
+GreaterDamageRateMG = 100
+GreaterDamageRateDL = 100
+GreaterDamageTimeConstA = 60
+
+;==================================================
+; Summon Monster Skill Settings
+;==================================================
+SummonMonster1 = 26
+SummonMonster2 = 32
+SummonMonster3 = 21
+SummonMonster4 = 20
+SummonMonster5 = 10
+SummonMonster6 = 150
+SummonMonster7 = 151
+
+;==================================================
+; Greater Life Skill Settings
+;==================================================
+GreaterLifeConstA = 12
+GreaterLifeConstB = 100
+GreaterLifeConstC = 20
+GreaterLifeRateDW = 100
+GreaterLifeRateDK = 100
+GreaterLifeRateFE = 100
+GreaterLifeRateMG = 100
+GreaterLifeRateDL = 100
+GreaterLifeTimeConstA = 60
+GreaterLifeTimeConstB = 10
+GreaterLifeMaxRate = 100
+
+;==================================================
+; Fire Slash Skill Settings
+;==================================================
+FireSlashConstA = 10
+FireSlashConstB = 50
+FireSlashTimeConstA = 10
+FireSlashMaxRate = 30
+
+;==================================================
+; Greater Critical Damage Skill Settings
+;==================================================
+GreaterCriticalDamageConstA = 25
+GreaterCriticalDamageConstB = 30
+GreaterCriticalDamageTimeConstA = 60
+GreaterCriticalDamageTimeConstB = 10
+
+;==================================================
+; Stern Skill Settings
+;==================================================
+SternTimeConstA = 10
+
+;==================================================
+; Greater Mana Skill Settings
+;==================================================
+GreaterManaConstA = 50
+GreaterManaTimeConstA = 60
+
+;==================================================
+; Invisibility Skill Settings
+;==================================================
+InvisibilityTimeConstA = 60
+
+;==================================================
+; Brand Skill Settings
+;==================================================
+BrandTimeConstA = 10

@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Util Files">
+      <UniqueIdentifier>{2d98712e-7860-4e76-a39c-e80cf261b364}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom">
+      <UniqueIdentifier>{89ceb3ff-bc69-4a16-afc3-5f64cbc52b7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom\System">
+      <UniqueIdentifier>{7fca7508-ccd6-4e97-ba47-304faf81ef98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom\HackCheck">
+      <UniqueIdentifier>{ca706a96-b7e7-472e-b19e-a4241c692d47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom\Protocol">
+      <UniqueIdentifier>{545bfca5-074b-4f1d-b1c6-494c21d129f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom\PrintPlayer">
+      <UniqueIdentifier>{a40b00ed-8fd3-406b-ab79-1485a9295106}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom\PacketManager">
+      <UniqueIdentifier>{89d4ea85-743a-48bc-8ee3-11d468ae8fcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom\Custom">
+      <UniqueIdentifier>{520eb7fc-d89c-42ee-bd2e-68af44fdf12d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom\Custom\CustomItem">
+      <UniqueIdentifier>{f92287ac-4e51-40ee-9d12-9e5a6527232e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom\ItemManager">
+      <UniqueIdentifier>{68599888-f4c3-456d-8925-b56887a73a4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom\WingManager">
+      <UniqueIdentifier>{c64baad8-38f9-4d15-9d28-fda30e2b84d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom\Custom\CustomWing">
+      <UniqueIdentifier>{23931b94-ad8c-4eba-90e4-9076b769a02b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Protect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CCRC32.H">
+      <Filter>Util Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Offset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resolution.h">
+      <Filter>Custom\System</Filter>
+    </ClInclude>
+    <ClInclude Include="TrayMode.h">
+      <Filter>Custom\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Custom\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Patchs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Custom\System</Filter>
+    </ClInclude>
+    <ClInclude Include="HackCheck.h">
+      <Filter>Custom\HackCheck</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol.h">
+      <Filter>Custom\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintPlayer.h">
+      <Filter>Custom\PrintPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketManager.h">
+      <Filter>Custom\PacketManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomItem.h">
+      <Filter>Custom\Custom\CustomItem</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemManager.h">
+      <Filter>Custom\ItemManager</Filter>
+    </ClInclude>
+    <ClInclude Include="WingManager.h">
+      <Filter>Custom\WingManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomWing.h">
+      <Filter>Custom\Custom\CustomWing</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Protect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CCRC32.Cpp">
+      <Filter>Util Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resolution.cpp">
+      <Filter>Custom\System</Filter>
+    </ClCompile>
+    <ClCompile Include="TrayMode.cpp">
+      <Filter>Custom\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Custom\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Patchs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Custom\System</Filter>
+    </ClCompile>
+    <ClCompile Include="HackCheck.cpp">
+      <Filter>Custom\HackCheck</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol.cpp">
+      <Filter>Custom\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintPlayer.cpp">
+      <Filter>Custom\PrintPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketManager.cpp">
+      <Filter>Custom\PacketManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomItem.cpp">
+      <Filter>Custom\Custom\CustomItem</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemManager.cpp">
+      <Filter>Custom\ItemManager</Filter>
+    </ClCompile>
+    <ClCompile Include="WingManager.cpp">
+      <Filter>Custom\WingManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomWing.cpp">
+      <Filter>Custom\Custom\CustomWing</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Main.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Client.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

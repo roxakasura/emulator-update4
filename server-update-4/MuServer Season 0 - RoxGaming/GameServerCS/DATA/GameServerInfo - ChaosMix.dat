@@ -1,0 +1,128 @@
+[GameServerInfo]
+;==================================================
+; Chaos Item Mix Settings
+;==================================================
+ChaosItemMixRate_AL0 = -1
+ChaosItemMixRate_AL1 = -1
+ChaosItemMixRate_AL2 = -1
+ChaosItemMixRate_AL3 = -1
+
+;==================================================
+; Devil Square Mix Settings
+;==================================================
+DevilSquareMixRate1_AL0 = 80
+DevilSquareMixRate1_AL1 = 80
+DevilSquareMixRate1_AL2 = 80
+DevilSquareMixRate1_AL3 = 80
+DevilSquareMixRate2_AL0 = 80
+DevilSquareMixRate2_AL1 = 80
+DevilSquareMixRate2_AL2 = 80
+DevilSquareMixRate2_AL3 = 80
+DevilSquareMixRate3_AL0 = 80
+DevilSquareMixRate3_AL1 = 80
+DevilSquareMixRate3_AL2 = 80
+DevilSquareMixRate3_AL3 = 80
+DevilSquareMixRate4_AL0 = 80
+DevilSquareMixRate4_AL1 = 80
+DevilSquareMixRate4_AL2 = 80
+DevilSquareMixRate4_AL3 = 80
+DevilSquareMixRate5_AL0 = 70
+DevilSquareMixRate5_AL1 = 70
+DevilSquareMixRate5_AL2 = 70
+DevilSquareMixRate5_AL3 = 70
+DevilSquareMixRate6_AL0 = 70
+DevilSquareMixRate6_AL1 = 70
+DevilSquareMixRate6_AL2 = 70
+DevilSquareMixRate6_AL3 = 70
+
+;==================================================
+; Plus Item Mix Settings
+;==================================================
+PlusItemLevelMixRate1_AL0 = 60
+PlusItemLevelMixRate1_AL1 = 60
+PlusItemLevelMixRate1_AL2 = 60
+PlusItemLevelMixRate1_AL3 = 60
+PlusItemLevelMixRate2_AL0 = 60
+PlusItemLevelMixRate2_AL1 = 60
+PlusItemLevelMixRate2_AL2 = 60
+PlusItemLevelMixRate2_AL3 = 60
+PlusItemLevelMixRate3_AL0 = 50
+PlusItemLevelMixRate3_AL1 = 50
+PlusItemLevelMixRate3_AL2 = 50
+PlusItemLevelMixRate3_AL3 = 50
+PlusItemLevelMixRate4_AL0 = 50
+PlusItemLevelMixRate4_AL1 = 50
+PlusItemLevelMixRate4_AL2 = 50
+PlusItemLevelMixRate4_AL3 = 50
+
+;==================================================
+; Dinorant Mix Settings
+;==================================================
+DinorantMixRate_AL0 = 70
+DinorantMixRate_AL1 = 70
+DinorantMixRate_AL2 = 70
+DinorantMixRate_AL3 = 70
+
+;==================================================
+; Fruit Mix Settings
+;==================================================
+FruitMixRate_AL0 = 90
+FruitMixRate_AL1 = 90
+FruitMixRate_AL2 = 90
+FruitMixRate_AL3 = 90
+
+;==================================================
+; Wing2 Mix Settings
+;==================================================
+Wing2MixRate_AL0 = -1
+Wing2MixRate_AL1 = -1
+Wing2MixRate_AL2 = -1
+Wing2MixRate_AL3 = -1
+
+;==================================================
+; Blood Castle Mix Settings
+;==================================================
+BloodCastleMixRate1_AL0 = 80
+BloodCastleMixRate1_AL1 = 80
+BloodCastleMixRate1_AL2 = 80
+BloodCastleMixRate1_AL3 = 80
+BloodCastleMixRate2_AL0 = 80
+BloodCastleMixRate2_AL1 = 80
+BloodCastleMixRate2_AL2 = 80
+BloodCastleMixRate2_AL3 = 80
+BloodCastleMixRate3_AL0 = 80
+BloodCastleMixRate3_AL1 = 80
+BloodCastleMixRate3_AL2 = 80
+BloodCastleMixRate3_AL3 = 80
+BloodCastleMixRate4_AL0 = 80
+BloodCastleMixRate4_AL1 = 80
+BloodCastleMixRate4_AL2 = 80
+BloodCastleMixRate4_AL3 = 80
+BloodCastleMixRate5_AL0 = 80
+BloodCastleMixRate5_AL1 = 80
+BloodCastleMixRate5_AL2 = 80
+BloodCastleMixRate5_AL3 = 80
+BloodCastleMixRate6_AL0 = 80
+BloodCastleMixRate6_AL1 = 80
+BloodCastleMixRate6_AL2 = 80
+BloodCastleMixRate6_AL3 = 80
+BloodCastleMixRate7_AL0 = 80
+BloodCastleMixRate7_AL1 = 80
+BloodCastleMixRate7_AL2 = 80
+BloodCastleMixRate7_AL3 = 80
+
+;==================================================
+; Wing1 Mix Settings
+;==================================================
+Wing1MixRate_AL0 = -1
+Wing1MixRate_AL1 = -1
+Wing1MixRate_AL2 = -1
+Wing1MixRate_AL3 = -1
+
+;==================================================
+; Pet Mix Settings
+;==================================================
+PetMixRate_AL0 = 60
+PetMixRate_AL1 = 60
+PetMixRate_AL2 = 60
+PetMixRate_AL3 = 60

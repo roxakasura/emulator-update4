@@ -1,0 +1,24 @@
+0
+//Index   Name                                 Type   SuccessRate   ContinuanceTime   IncAndDecType   IncAndDecValue   NullifiedMagic   CharacterClass   CharacterLevel
+1         "Monster Skill Element"              0      50            3                 *               *                *                0                0
+3         "Monster Skill Element"              3      50            10                2               50               *                0                0
+4         "Monster Skill Element"              4      50            10                2               50               *                0                0
+5         "Monster Skill Element"              5      90            10                12              50               *                0                0
+6         "Monster Skill Element"              6      90            10                12              50               *                0                0
+7         "Monster Skill Element"              9      50            10                *               *                *                0                0
+8         "Monster Skill Element"              2      30            10                112             10               *                0                0
+9         "Monster Skill Element"              1      90            10                12              50               *                0                0
+11        "Monster Skill Element"              7      90            10                12              7                *                0                0
+12        "Monster Skill Element"              2      90            10                101             5                *                0                0
+13        "Monster Skill Element"              2      90            10                11              50               *                0                0
+14        "Monster Skill Element"              2      90            10                12              100              *                0                0
+16        "Monster Skill Element"              8      90            10                0               *                *                0                0
+17        "Monster Skill Element"              14     50            10                0               *                27               0                0
+22        "Monster Skill Element"              16     90            10                0               *                28               0                0
+23        "Monster Skill Element"              16     90            10                0               *                28               0                0
+24        "Monster Skill Element"              20     100           10                *               *                *                0                0
+25        "Monster Skill Element"              20     100           10                *               *                *                0                0
+26        "Monster Skill Element"              20     100           10                *               *                *                0                0
+27        "Monster Skill Element"              19     100           10                *               10               800              0                0
+28        "Monster Skill Element"              18     100           10                *               *                *                0                0
+end

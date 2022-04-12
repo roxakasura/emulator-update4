@@ -1,0 +1,3 @@
+Em config.txt, após a linha [Main], adicionar:
+
+IsFontActive	= 1

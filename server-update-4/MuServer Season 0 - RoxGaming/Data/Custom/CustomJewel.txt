@@ -1,0 +1,29 @@
+0
+//Index   ItemIndex   MinItemLevel   MaxItemLevel   MaxSkill         MaxLuck          MinAdicional     MaxAdicional     MinExcellent       MaxExcellent       MaxAncient         MinSocket             MaxSocket             EnableSlotWeapon   EnableSlotArmor   EnableSlotWing   SuccessRate_AL0   SuccessRate_AL1   SuccessRate_AL2   SuccessRate_AL3   SalePrice   ModelName                       
+  0       7368        *              12             *                *                *                *                *                  *                  *                  *                     *                     1                  1                 1                   100              100              100              100                20          "Jewel200" //Jewel of Level
+  1       7369        *              *              0                *                *                *                *                  *                  *                  *                     *                     1                  0                 0                   100              100              100              100                20          "Jewel201" //Jewel of Skill
+  2       7370        *              *              *                0                *                *                *                  *                  *                  *                     *                     1                  1                 1                   100              100              100              100                20          "Jewel202" //Jewel of Luck
+  3       7371        *              *              *                *                *                1                *                  *                  *                  *                     *                     1                  1                 1                   100              100              100              100                20          "Jewel203" //Jewel of Adicional
+  4       7372        *              *              *                *                *                *                *                  1                  *                  *                     *                     1                  1                 1                   100              100              100              100                20          "Jewel204" //Jewel of Excellent
+  5       7373        *              *              *                *                *                *                *                  *                  0                  *                     *                     1                  1                 0                   100              100              100              100                20          "Jewel205" //Jewel of Ancient
+  6       7374        *              *              *                *                *                *                *                  *                  *                  *                     1                     1                  1                 0                   100              100              100              100                20          "Jewel206" //Jewel of Socket
+  7       7375        *              *              *                *                *                *                *                  1                  *                  *                     *                     1                  1                 1                   100              100              100              100                20          "Jewel207" //Jewel of Full
+end
+
+
+1
+//Index   Level   Skill     Luck      Adicional Excellent   Ancient     Socket
+  0       13      0         0         0         0           0           0
+  1       0       1         0         0         0           0           0
+  2       0       0         1         0         0           0           0
+  3       0       0         0         7         0           0           0
+  4       0       0         0         0         1           0           0
+  5       0       0         0         0         0           1           0
+  6       0       0         0         0         0           0           5
+  7       13      1         1         7         63          1           0
+end
+
+
+2
+//Index   Level   Skill     Luck      Adicional Excellent   Ancient     Socket
+end

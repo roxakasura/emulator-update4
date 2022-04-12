@@ -1,0 +1,21 @@
+Adicionar ao final do arquivo:
+
+//=================================================================================================================
+//-- Custom Coins Time
+//-- Premiação de coins ao ficar online
+//-- CoinsPerTimeDelay = Tempo em minutos
+//=================================================================================================================
+CoinsPerTimeSwitch = 1
+CoinsPerTimeDelay = 1
+CoinsPerTimeType1_AL0 = 0
+CoinsPerTimeType1_AL1 = 0
+CoinsPerTimeType1_AL2 = 0
+CoinsPerTimeType1_AL3 = 0
+CoinsPerTimeType2_AL0 = 0
+CoinsPerTimeType2_AL1 = 0
+CoinsPerTimeType2_AL2 = 0
+CoinsPerTimeType2_AL3 = 0
+CoinsPerTimeType3_AL0 = 0
+CoinsPerTimeType3_AL1 = 0
+CoinsPerTimeType3_AL2 = 0
+CoinsPerTimeType3_AL3 = 0

@@ -1,0 +1,52 @@
+Adicionar ao final do arquivo:
+
+;==================================================
+; Event Manager Settings
+; - Comando para participar dos eventos a baixo
+;==================================================
+CommandGoEventsSyntax =/queroir
+
+;==================================================
+; Event Kill All (Mata-Mata Geral)
+;==================================================
+EventKillAllSwitch = 1
+EventKillAllSyntax = /matamata
+EventKillAllTimeToEnter = 20
+EventKillAllDeadDecrease = 1
+EventKillAllKillIncrease = 2
+EventKillAllMaxScore = 20
+EventKillAllMinPlayers = 2
+EventKillAllMaxPlayers = 20
+EventKillAllMaxTime= 2
+EventKillAllAutoReward1Rank1 = 0
+EventKillAllAutoReward1Rank2 = 0
+EventKillAllAutoReward1Rank3 = 0
+EventKillAllAutoReward2Rank1 = 0
+EventKillAllAutoReward2Rank2 = 0
+EventKillAllAutoReward2Rank3 = 0
+EventKillAllAutoReward3Rank1 = 100
+EventKillAllAutoReward3Rank2 = 50
+EventKillAllAutoReward3Rank3 = 30
+
+;==================================================
+; Event Run And Catch (Pega-Pega)
+;==================================================
+EventRunAndCatchSwitch = 1
+EventRunAndCatchSyntax = /pegapega
+EventRunAndCatchTimeToEnter = 10
+EventRunAndCatchMaxTime = 10
+EventRunAndCatchAutoReward1 = 10
+EventRunAndCatchAutoReward2 = 10
+EventRunAndCatchAutoReward3 = 10
+
+;==================================================
+; Event Russian Roulette (Roleta Russa)
+;==================================================
+EventRussianRouletteSwitch 	= 1
+EventRussianRouletteSyntax 	= /roletarussa
+EventRussianRouletteTimeToEnter	= 10
+EventRussianRouletteMaxTime	= 10
+EventRussianRouletteMaxPlayer	= 8
+EventRussianRouletteAutoReward1 = 10
+EventRussianRouletteAutoReward2 = 10
+EventRussianRouletteAutoReward3 = 10

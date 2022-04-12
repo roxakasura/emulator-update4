@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F51CAB97-CCCD-465F-996A-EF509CBFDD43}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>main</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>C:\Users\Public\RoxGaming\RoxGaming - Nova Base - 2022\Client_EX301</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;MAIN_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;MAIN_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Util\CCRC32.H" />
+    <ClInclude Include="Main\BMD.h" />
+    <ClInclude Include="Main\Camera3D.h" />
+    <ClInclude Include="Main\Common.h" />
+    <ClInclude Include="Main\Console.h" />
+    <ClInclude Include="Main\Controller.h" />
+    <ClInclude Include="Main\CtrlChar.h" />
+    <ClInclude Include="Main\CustomItem.h" />
+    <ClInclude Include="Main\CustomJewel.h" />
+    <ClInclude Include="Main\CustomMap.h" />
+    <ClInclude Include="Main\CustomMonster.h" />
+    <ClInclude Include="Main\CustomWing.h" />
+    <ClInclude Include="Main\DynamicEffect.h" />
+    <ClInclude Include="Main\EventTime.h" />
+    <ClInclude Include="Main\Experience.h" />
+    <ClInclude Include="main\ItemPosition.h" />
+    <ClInclude Include="Main\Monster.h" />
+    <ClInclude Include="Main\PcPoint.h" />
+    <ClInclude Include="Main\PlayerSystem.h" />
+    <ClInclude Include="Main\procesos.h" />
+    <ClInclude Include="Main\SelectServerS13.h" />
+    <ClInclude Include="Main\StaticEffect.h" />
+    <ClInclude Include="Main\EffectManager.h" />
+    <ClInclude Include="Main\Font.h" />
+    <ClInclude Include="Main\glaux.h" />
+    <ClInclude Include="Main\glut.h" />
+    <ClInclude Include="Main\HackCheck.h" />
+    <ClInclude Include="Main\Interface.h" />
+    <ClInclude Include="Main\ItemDescription.h" />
+    <ClInclude Include="Main\ItemManager.h" />
+    <ClInclude Include="Main\ItemSmoke.h" />
+    <ClInclude Include="Main\main.h" />
+    <ClInclude Include="Main\MathLib.h" />
+    <ClInclude Include="Main\MemScript.h" />
+    <ClInclude Include="Main\Minimap.h" />
+    <ClInclude Include="Main\NewMaps.h" />
+    <ClInclude Include="Main\PacketManager.h" />
+    <ClInclude Include="Main\PrintPlayer.h" />
+    <ClInclude Include="Main\Protect.h" />
+    <ClInclude Include="Main\Protocol.h" />
+    <ClInclude Include="Main\ReadScript.h" />
+    <ClInclude Include="Main\Reconnect.h" />
+    <ClInclude Include="Main\Resolution.h" />
+    <ClInclude Include="Main\RightClick.h" />
+    <ClInclude Include="Main\SelectCharAnimation.h" />
+    <ClInclude Include="Main\ServerInfo.h" />
+    <ClInclude Include="Main\stdafx.h" />
+    <ClInclude Include="Main\TMemory.h" />
+    <ClInclude Include="Main\ToolKit.h" />
+    <ClInclude Include="Main\Testando.h" />
+    <ClInclude Include="Main\TrayMode.h" />
+    <ClInclude Include="Main\User.h" />
+    <ClInclude Include="Main\Util.h" />
+    <ClInclude Include="Main\utils.h" />
+    <ClInclude Include="Main\WeaponFix.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Util\CCRC32.Cpp" />
+    <ClCompile Include="Main\BMD.cpp" />
+    <ClCompile Include="Main\Camera3D.cpp" />
+    <ClCompile Include="Main\Common.cpp" />
+    <ClCompile Include="Main\Console.cpp" />
+    <ClCompile Include="Main\Controller.cpp" />
+    <ClCompile Include="Main\CtrlChar.cpp" />
+    <ClCompile Include="Main\CustomItem.cpp" />
+    <ClCompile Include="Main\CustomJewel.cpp" />
+    <ClCompile Include="Main\CustomMap.cpp" />
+    <ClCompile Include="Main\CustomMonster.cpp" />
+    <ClCompile Include="Main\CustomWing.cpp" />
+    <ClCompile Include="Main\DynamicEffect.cpp" />
+    <ClCompile Include="Main\EventTime.cpp" />
+    <ClCompile Include="Main\Experience.cpp" />
+    <ClCompile Include="main\ItemPosition.cpp" />
+    <ClCompile Include="Main\Monster.cpp" />
+    <ClCompile Include="Main\PcPoint.cpp" />
+    <ClCompile Include="Main\PlayerSystem.cpp" />
+    <ClCompile Include="Main\SelectServerS13.cpp" />
+    <ClCompile Include="Main\StaticEffect.cpp" />
+    <ClCompile Include="Main\EffectManager.cpp" />
+    <ClCompile Include="Main\Font.cpp" />
+    <ClCompile Include="Main\HackCheck.cpp" />
+    <ClCompile Include="Main\Interface.cpp" />
+    <ClCompile Include="Main\ItemDescription.cpp" />
+    <ClCompile Include="Main\ItemManager.cpp" />
+    <ClCompile Include="Main\ItemSmoke.cpp" />
+    <ClCompile Include="Main\main.cpp" />
+    <ClCompile Include="Main\MathLib.cpp" />
+    <ClCompile Include="Main\MemScript.cpp" />
+    <ClCompile Include="Main\Minimap.cpp" />
+    <ClCompile Include="Main\NewMaps.cpp" />
+    <ClCompile Include="Main\PacketManager.cpp" />
+    <ClCompile Include="Main\PrintPlayer.cpp" />
+    <ClCompile Include="Main\Protect.cpp" />
+    <ClCompile Include="Main\Protocol.cpp" />
+    <ClCompile Include="Main\Reconnect.cpp" />
+    <ClCompile Include="Main\Resolution.cpp" />
+    <ClCompile Include="Main\RightClick.cpp" />
+    <ClCompile Include="Main\SelectCharAnimation.cpp" />
+    <ClCompile Include="Main\ServerInfo.cpp" />
+    <ClCompile Include="Main\Testando.cpp" />
+    <ClCompile Include="Main\TMemory.cpp" />
+    <ClCompile Include="Main\ToolKit.cpp" />
+    <ClCompile Include="Main\TrayMode.cpp" />
+    <ClCompile Include="Main\User.cpp" />
+    <ClCompile Include="Main\Util.cpp" />
+    <ClCompile Include="Main\utils.cpp" />
+    <ClCompile Include="Main\WeaponFix.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Main\glut.def" />
+    <None Include="Main\glut32.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Main\cg.lib" />
+    <Library Include="Main\cgGL.lib" />
+    <Library Include="Main\detoured.lib" />
+    <Library Include="Main\detours.lib" />
+    <Library Include="Main\Glaux.lib" />
+    <Library Include="Main\glut32.lib" />
+    <Library Include="Main\VMProtectSDK32.lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

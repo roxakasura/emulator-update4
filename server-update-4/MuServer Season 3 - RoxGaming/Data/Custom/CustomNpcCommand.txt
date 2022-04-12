@@ -1,0 +1,4 @@
+//Npc	NpcMap	NpcX	NpcY    CommandText	Comment
+  247	0 	125	125     "/addpk"	//Add PkClear
+  249	0 	126	126     "/pk"		//Rem PkClear
+end

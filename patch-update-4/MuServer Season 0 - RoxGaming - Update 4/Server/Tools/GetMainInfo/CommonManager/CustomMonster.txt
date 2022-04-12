@@ -1,0 +1,13 @@
+// ----------------------------------------------------------------------------------
+// MonsterIndex - Index do Monstro
+// Type - 0 (NPC) | 1 (Monster)
+// Size - Tamanho do Monstro
+// Directory - Diretório de leitura da textura
+// MonsterModel - Nome do modelo.bmd do monstro
+// MonsterName - Nome do monstro
+// ----------------------------------------------------------------------------------
+// MonsterIndex   Type    Size     Directory 	 MonsterModel 		MonsterName 
+// ----------------------------------------------------------------------------------
+ 414            0       1.25     "NPC\\"       "NPCAlpine"  		"Denis Alves"
+ 415            1       0.85     "Monster\\"   "Monster128"    	"Xiu Noob Boss"
+end
