@@ -4,6 +4,7 @@
 #include "Notice.h"
 #include "ServerInfo.h"
 #include "User.h"
+#include "Extra.h"
 
 CCoinsPerTime gCoinsPerTime;
 //////////////////////////////////////////////////////////////////////

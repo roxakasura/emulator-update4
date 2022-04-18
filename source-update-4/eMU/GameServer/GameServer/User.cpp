@@ -564,6 +564,9 @@ void gObjCharZeroSet(int aIndex) // OK
 	lpObj->AttackObj = 0;
 	lpObj->AttackerKilled = 0;
 	lpObj->TheGift = 0;
+#if(WILLIAMCUSTOM)
+	lpObj->ExpWar = 0;
+#endif
 	lpObj->KillAll = 0;
 
 	for(int n=0;n < MAX_SELF_DEFENSE;n++)

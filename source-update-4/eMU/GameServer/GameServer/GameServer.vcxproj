@@ -446,6 +446,7 @@
     <ClInclude Include="EffectManager.h" />
     <ClInclude Include="ESProtocol.h" />
     <ClInclude Include="EventInventory.h" />
+    <ClInclude Include="Extra.h" />
     <ClInclude Include="RoletaRussa.h" />
     <ClInclude Include="PegaPega.h" />
     <ClInclude Include="ExperienceTable.h" />
@@ -666,6 +667,7 @@
     <ClCompile Include="EffectManager.cpp" />
     <ClCompile Include="ESProtocol.cpp" />
     <ClCompile Include="EventInventory.cpp" />
+    <ClCompile Include="Extra.cpp" />
     <ClCompile Include="RoletaRussa.cpp" />
     <ClCompile Include="PegaPega.cpp" />
     <ClCompile Include="ExperienceTable.cpp" />

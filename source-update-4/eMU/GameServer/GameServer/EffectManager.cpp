@@ -401,8 +401,12 @@ void CEffectManager::InsertEffect(LPOBJ lpObj,CEffect* lpEffect) // OK
 			lpObj->EffectOption.MulMaxMP += lpEffect->m_value[0];
 			break;
 		case EFFECT_BLESS_POTION:
+			lpObj->m_ViewSkillState |= 0x8000;
+			gObjSetSkillEffect(lpObj, 1, 0x8000);
 			break;
 		case EFFECT_SOUL_POTION:
+			lpObj->m_ViewSkillState |= 0x10000;
+			gObjSetSkillEffect(lpObj, 1, 0x10000);
 			lpObj->EffectOption.AddPhysiSpeed += lpEffect->m_value[0];
 			lpObj->EffectOption.AddMagicSpeed += lpEffect->m_value[0];
 			lpObj->EffectOption.AddBPRecovery += lpEffect->m_value[1];
@@ -958,8 +962,12 @@ void CEffectManager::RemoveEffect(LPOBJ lpObj,CEffect* lpEffect) // OK
 			lpObj->EffectOption.MulMaxMP -= lpEffect->m_value[0];
 			break;
 		case EFFECT_BLESS_POTION:
+			lpObj->m_ViewSkillState &= ~0x8000;
+			gObjSetSkillEffect(lpObj, 0, 0x8000);
 			break;
 		case EFFECT_SOUL_POTION:
+			lpObj->m_ViewSkillState &= ~0x10000;
+			gObjSetSkillEffect(lpObj, 0, 0x10000);
 			lpObj->EffectOption.AddPhysiSpeed -= lpEffect->m_value[0];
 			lpObj->EffectOption.AddMagicSpeed -= lpEffect->m_value[0];
 			lpObj->EffectOption.AddBPRecovery -= lpEffect->m_value[1];

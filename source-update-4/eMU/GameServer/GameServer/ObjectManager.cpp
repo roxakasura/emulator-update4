@@ -78,6 +78,7 @@
 #include "Util.h"
 #include "ItemNewOption.h"
 #include "MataMataAll.h"
+#include "Extra.h"
 
 CObjectManager gObjectManager;
 //////////////////////////////////////////////////////////////////////
@@ -3322,6 +3323,9 @@ void CObjectManager::CharacterCalcAttribute(int aIndex) // OK
 		lpObj->AddEnergy = lpObj->EffectOption.AddEnergy;
 		lpObj->AddLeadership = lpObj->EffectOption.AddLeadership;
 
+#if(WILLIAMCUSTOM)
+		gPatentSystem.PatentSystem(lpObj);
+#endif
 		gSetItemOption.CalcSetItemStat(lpObj);
 		gItemOption.CalcItemCommonOption(lpObj,1);
 		gSetItemOption.CalcSetItemOption(lpObj,1);
@@ -4215,6 +4219,9 @@ bool CObjectManager::CharacterInfoSet(BYTE* aRecv,int aIndex) // OK
 	lpObj->Reset = lpMsg->Reset;
 	lpObj->MasterReset = lpMsg->MasterReset;
 	lpObj->TheGift = lpMsg->TheGift;
+#if(WILLIAMCUSTOM)
+	lpObj->ExpWar = lpMsg->ExpWar;
+#endif
 
 	memcpy(lpObj->Name,lpMsg->name,sizeof(lpObj->Name));
 

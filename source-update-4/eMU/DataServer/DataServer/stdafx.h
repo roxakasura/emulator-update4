@@ -54,4 +54,6 @@ extern char CustomerName[32];
 extern char CustomerHardwareId[36];
 extern long MaxIpConnection;
 
+#define WILLIAMCUSTOM 0
+
 typedef unsigned __int64 QWORD;

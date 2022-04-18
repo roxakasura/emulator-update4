@@ -1000,6 +1000,9 @@ struct OBJECTSTRUCT
 	bool RunAndCatchMember;
 	int RussianRoulette;
 	BYTE TheGift;  // only add in is struct
+#if(WILLIAMCUSTOM)
+	DWORD ExpWar;  // only add in is struct
+#endif
 	int KillAll;
 	int Coin1;
 	int Coin2;

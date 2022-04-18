@@ -52,6 +52,7 @@
 #define TARCISIO 1
 #define ALGOQUEVOUUSARUMDIA 0
 #define MUSIGN 0
+#define WILLIAMCUSTOM 0
 
 // System Include
 #include <windows.h>

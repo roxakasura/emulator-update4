@@ -1184,7 +1184,11 @@ void GDCharacterInfoRecv(SDHP_CHARACTER_INFO_RECV* lpMsg,int index) // OK
 
 		pMsg.MaxBP = (DWORD)gQueryManager.GetAsFloat("MaxBP");
 
-		pMsg.TheGift= gQueryManager.GetAsInteger("StartItem"); // only add in is void
+		pMsg.TheGift = gQueryManager.GetAsInteger("StartItem"); // only add in is void
+
+#if(WILLIAMCUSTOM)
+		pMsg.ExpWar = gQueryManager.GetAsInteger("ExpWar"); // only add in is void
+#endif
 
 		#if(DATASERVER_DOWNGRADE>=301)
 		pMsg.Shield = (DWORD)gQueryManager.GetAsFloat("Shield");

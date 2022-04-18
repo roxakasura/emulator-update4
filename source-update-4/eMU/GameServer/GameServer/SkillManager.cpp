@@ -1962,21 +1962,10 @@ bool CSkillManager::SkillTwistingSlash(int aIndex,int bIndex,CSkill* lpSkill,boo
 
 		int index = lpObj->VpPlayer2[n].index;
 
-		#if(GAMESERVER_DOWNGRADE>=001) 
+		if(this->CheckSkillTarget(lpObj,index,bIndex,lpObj->VpPlayer2[n].type) == 0)
 		{
-			if(this->CheckSkillTarget(lpObj,index,bIndex,lpObj->VpPlayer2[n].type) == 0)
-			{
-				continue;
-			}
+			continue;
 		}
-		#else
-		{
-			if(this->CheckSkillTarget(lpObj,0,bIndex,lpObj->VpPlayer2[n].type) == 0)
-			{
-				continue;
-			}
-		}
-		#endif
 
 		if(this->CheckSkillRadio(lpSkill->m_index,lpObj->X,lpObj->Y,gObj[index].X,gObj[index].Y) == 0)
 		{
@@ -2238,21 +2227,10 @@ bool CSkillManager::SkillPowerSlash(int aIndex,int bIndex,CSkill* lpSkill,BYTE a
 
 		int index = lpObj->VpPlayer2[n].index;
 
-		#if(GAMESERVER_DOWNGRADE>=001) 
+		if(this->CheckSkillTarget(lpObj,index,bIndex,lpObj->VpPlayer2[n].type) == 0)
 		{
-			if(this->CheckSkillTarget(lpObj,index,bIndex,lpObj->VpPlayer2[n].type) == 0)
-			{
-				continue;
-			}
+			continue;
 		}
-		#else
-		{
-			if(this->CheckSkillTarget(lpObj,0,bIndex,lpObj->VpPlayer2[n].type) == 0)
-			{
-				continue;
-			}
-		}
-		#endif
 
 		if(this->CheckSkillRadio(lpSkill->m_index,lpObj->X,lpObj->Y,gObj[index].X,gObj[index].Y) == 0)
 		{

@@ -606,6 +606,9 @@ struct SDHP_CHARACTER_INFO_SEND
 	DWORD Reset;
 	DWORD MasterReset;
 	BYTE TheGift; // only add in is struct
+#if(WILLIAMCUSTOM)
+	DWORD ExpWar;
+#endif
 };
 
 struct SDHP_CREATE_ITEM_SEND

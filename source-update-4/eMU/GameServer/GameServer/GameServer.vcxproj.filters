@@ -70,6 +70,9 @@
     <Filter Include="Custom Files\EventsCustom\RoletaRussa">
       <UniqueIdentifier>{66a056e2-70c6-4e4d-95cf-73a73712a2c6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Custom Files\Extra">
+      <UniqueIdentifier>{1b2d7cd8-1c51-4f8b-b424-cb2f221415aa}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="ReadMe.txt" />
@@ -735,6 +738,9 @@
     <ClInclude Include="RoletaRussa.h">
       <Filter>Custom Files\EventsCustom\RoletaRussa</Filter>
     </ClInclude>
+    <ClInclude Include="Extra.h">
+      <Filter>Custom Files\Extra</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -1384,6 +1390,9 @@
     </ClCompile>
     <ClCompile Include="RoletaRussa.cpp">
       <Filter>Custom Files\EventsCustom\RoletaRussa</Filter>
+    </ClCompile>
+    <ClCompile Include="Extra.cpp">
+      <Filter>Custom Files\Extra</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -113,6 +113,9 @@ struct SDHP_CHARACTER_INFO_RECV
 	DWORD UseGuildMatchingJoin;
 	#endif
 	BYTE TheGift;  // only add in is struct
+#if(WILLIAMCUSTOM)
+	DWORD ExpWar;  // only add in is struct
+#endif
 };
 
 struct SDHP_CREATE_ITEM_RECV

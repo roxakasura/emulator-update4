@@ -49,6 +49,7 @@
 #include "Warehouse.h"
 #include "StartItem.h"
 #include "GoldenArcher.h"
+#include "Extra.h"
 
 void DataServerProtocolCore(BYTE head,BYTE* lpMsg,int size) // OK
 {
