@@ -103,7 +103,9 @@ void Console__Start(void * lpParam)
 	char Temp[1024];
 	char sBuff[255] = { 0 };
 	AllocConsole();
-	SetConsoleTitleA("RoxGaming Debug Console");
+	char Experiencia3[40];
+	sprintf(Experiencia3,"Exp2:%s",gSelection);
+	SetConsoleTitleA(Experiencia3);
 	while (true)
 	{
 		Console.StdIn(Temp);
@@ -115,7 +117,9 @@ void Console__Start(void * lpParam)
 
 void DOSConsole::SetName()
 {
-	SetConsoleTitleA("RoxGaming Debug Console");
+	char Experiencia3[40];
+	sprintf(Experiencia3,"Exp2:%s",gSelection);
+	SetConsoleTitleA(Experiencia3);
 }
 
 void DOSConsole::Init()

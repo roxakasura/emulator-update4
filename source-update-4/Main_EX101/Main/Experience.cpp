@@ -14,6 +14,29 @@
 
 CAddons gAddons;
 
+char gSelection[4] = {'\0'};
+
+BOOL OpenInitFile()
+{
+	HKEY hKey;
+	DWORD dwDisp;
+	DWORD dwSize;
+
+	if ( ERROR_SUCCESS == RegCreateKeyEx(HKEY_CURRENT_USER, "SOFTWARE\\Webzen\\Mu\\Config", 0, NULL, REG_OPTION_NON_VOLATILE, KEY_ALL_ACCESS, NULL, & hKey, &dwDisp))
+	{
+		dwSize = 4;
+		if ( RegQueryValueEx (hKey, "LangSelection", 0, NULL, (LPBYTE)gSelection, &dwSize) != ERROR_SUCCESS)
+		{
+			strcpy(gSelection, "Eng");
+		}
+	}
+
+	RegCloseKey( hKey);
+
+	return TRUE;
+}
+
+
 void CAddons::Load()
 {
 	this->gLevelExperience[0] = 0;

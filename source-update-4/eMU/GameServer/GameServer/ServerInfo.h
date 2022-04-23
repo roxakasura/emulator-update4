@@ -954,6 +954,7 @@ public:
 	int m_StartItemType;
 	int m_AncientItemTapeSwitch;
 	int m_CustomItemStartSwitch[MAX_ACCOUNT_LEVEL];
+	int m_CommandBattleSoccerEnable;
 };
 
 extern CServerInfo gServerInfo;

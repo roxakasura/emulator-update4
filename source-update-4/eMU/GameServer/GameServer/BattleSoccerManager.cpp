@@ -1,6 +1,7 @@
 #include "stdafx.h"
 #include "BattleSoccer.h"
 #include "BattleSoccerManager.h"
+#include "ServerInfo.h"
 #include "Guild.h"
 #include "Protocol.h"
 #include "Util.h"

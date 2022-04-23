@@ -254,8 +254,9 @@ bool CCustomAttack::GetAttackSkill(LPOBJ lpObj,int* SkillNumber) // OK
 			lpSkill = ((lpSkill==0)?gSkillManager.GetSkill(lpObj,SKILL_TWISTING_SLASH):lpSkill);
 			lpSkill = ((lpSkill==0)?gSkillManager.GetSkill(lpObj,SKILL_DEATH_STAB):lpSkill);
 			break;
-		case CLASS_FE:
-
+		case CLASS_FE:	
+			lpSkill = ((lpSkill==0)?gSkillManager.GetSkill(lpObj,SKILL_ICE_ARROW):lpSkill);
+			lpSkill = ((lpSkill==0)?gSkillManager.GetSkill(lpObj,SKILL_PENETRATION):lpSkill);
 			break;
 		case CLASS_MG:
 			lpSkill = ((lpSkill==0)?gSkillManager.GetSkill(lpObj,SKILL_POWER_SLASH):lpSkill);

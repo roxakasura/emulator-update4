@@ -96,6 +96,12 @@ HICON WINAPI IconProc(HINSTANCE hInstance,LPCSTR lpIconName) // OK
 	return gTrayMode.m_TrayIcon;
 }
 
+void GuildCreateDateText(DWORD a, char* b)
+{
+	char TestText[200];
+	wsprintf(TestText,"Guild Criada em: 22/04/2022");
+	((void(*)(DWORD,char*,...))0x00739528)(a, TestText);
+}
 
 extern "C" _declspec(dllexport) void Init()
 {
@@ -114,7 +120,9 @@ extern "C" _declspec(dllexport) void Init()
 
 	PlayerLoad();
 
-	CButtonCharacterS13();
+	//SetCompleteHook(0xE8,0x0045403F,&GuildCreateDateText);
+
+	CButtonCharacterS13();	
 
 	if(gProtect.m_MainInfo.ExperienceType == 1)
 	{

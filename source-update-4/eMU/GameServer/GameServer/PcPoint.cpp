@@ -99,11 +99,6 @@ void CPcPoint::MainProc() // OK
 {
 	#if(GAMESERVER_UPDATE<=402)
 
-	if(gServerInfo.m_PcPointSwitch == 0)
-	{
-		return;
-	}
-
 	for(int n=OBJECT_START_USER;n < MAX_OBJECT;n++)
 	{
 		if(gObjIsConnectedGP(n) == 0)
@@ -453,6 +448,11 @@ void CPcPoint::GDPcPointRecievePointSend(int aIndex,DWORD CallbackFunc,DWORD Cal
 
 void CPcPoint::GDPcPointAddPointSaveSend(int aIndex,DWORD AddPcPoint) // OK
 {
+	if(gServerInfo.m_PcPointSwitch == 0)
+	{
+		return;
+	}
+
 	#if(GAMESERVER_UPDATE<=402)
 
 	SDHP_PC_POINT_ADD_POINT_SAVE_SEND pMsg;

@@ -2820,9 +2820,11 @@ void CServerInfo::ReadCommandInfo(char* section,char* path) // OK
 	GetPrivateProfileString(section,"CommandGuildWarSyntax","",this->m_CommandGuildWarSyntax,sizeof(this->m_CommandGuildWarSyntax),path);
 	
 	GetPrivateProfileString(section,"CommandBattleSoccerSyntax","",this->m_CommandBattleSoccerSyntax,sizeof(this->m_CommandBattleSoccerSyntax),path);
-	
+
 	GetPrivateProfileString(section,"CommandRequestSyntax","",this->m_CommandRequestSyntax,sizeof(this->m_CommandRequestSyntax),path);
-	
+
+	this->m_CommandRequestSwitch[0] = GetPrivateProfileInt(section, "CommandRequestAutoEnable_AL0", 0, path);
+
 	this->m_CommandRequestSwitch[0] = GetPrivateProfileInt(section,"CommandRequestAutoEnable_AL0",0,path);
 
 	this->m_CommandRequestSwitch[1] = GetPrivateProfileInt(section,"CommandRequestAutoEnable_AL1",0,path);
@@ -2874,6 +2876,8 @@ void CServerInfo::ReadCommandInfo(char* section,char* path) // OK
 	this->m_CommandClearWarehouseSwitch[3] = GetPrivateProfileInt(section, "CommandClearWarehouseEnable_AL3", 0, path);
 
 	GetPrivateProfileString(section, "CommandClearWarehouseSyntax", "", this->m_CommandClearWarehouseSyntax, sizeof(this->m_CommandClearWarehouseSyntax), path);
+
+	this->m_CommandBattleSoccerEnable = GetPrivateProfileInt(section, "CommandBattleSoccerSwitch", 0, path);
 }
 
 void CServerInfo::ReadCommonInfo(char* section,char* path) // OK

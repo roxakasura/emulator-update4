@@ -706,6 +706,24 @@ void GCGuildMasterManagerRun(int aIndex)
 
 void CGGuildMasterInfoSave(int aIndex, PMSG_GUILDINFOSAVE * lpMsg) //0x55
 {
+	tm today;
+	time_t mytime;
+	time(&mytime);
+	mytime = time(NULL);
+	struct tm tm = *localtime(&mytime);
+
+	if (localtime_s(&today, &mytime) != 0)
+	{
+		return;
+	}
+
+	char time[32];
+
+	if (asctime_s(time, sizeof(time), &today) != 0)
+	{
+		return;
+	}
+
 	char GuildName[9];
 	GuildName[8] ='\0';
 	memcpy(GuildName, lpMsg->GuildName, 8);
@@ -731,6 +749,12 @@ void CGGuildMasterInfoSave(int aIndex, PMSG_GUILDINFOSAVE * lpMsg) //0x55
 	gGuildMatching.GDGuildMatchingJoinCancelSend(aIndex,1);
 
 	GDGuildCreateSend(aIndex, GuildName, gObj[aIndex].Name, lpMsg->Mark, lpMsg->btGuildType);
+
+	char TextoGuild[60];
+
+	sprintf(TextoGuild, "Data de criação %d/%d/%d - %.8s", tm.tm_mday, tm.tm_mon + 1, tm.tm_year + 1900, &time[11]);
+
+	LogAdd(LOG_BLACK, TextoGuild);
 
 	if ( gObj[aIndex].Interface.use && gObj[aIndex].Interface.type == 5 )
 	{

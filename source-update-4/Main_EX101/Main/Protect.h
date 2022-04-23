@@ -28,8 +28,8 @@ struct MAIN_FILE_INFO
 	DWORD MGMaxAttackSpeed;
 	DWORD DLMaxAttackSpeed;
 	DWORD MiniMapCheck;
-	DWORD CSSkillCheck;
 	DWORD SelectCharAnime;
+	DWORD CSSkillCheck;
 	DWORD RemoveDraggingSkill;
 	//
 	DWORD ItemLevel15;

@@ -1289,13 +1289,16 @@ void CCommandManager::CommandGuildWar(LPOBJ lpObj,char* arg) // OK
 
 void CCommandManager::CommandBattleSoccer(LPOBJ lpObj,char* arg) // OK
 {
-	char GuildName[9] = {0};
-
-	this->GetString(arg,GuildName,sizeof(GuildName),0);
-
-	if(strlen(GuildName) >= 1)
+	if (gServerInfo.m_CommandBattleSoccerEnable == 1)
 	{
-		GCGuildWarRequestResult(GuildName,lpObj->Index,1);
+		char GuildName[9] = { 0 };
+
+		this->GetString(arg, GuildName, sizeof(GuildName), 0);
+
+		if (strlen(GuildName) >= 1)
+		{
+			GCGuildWarRequestResult(GuildName, lpObj->Index, 1);
+		}
 	}
 }
 

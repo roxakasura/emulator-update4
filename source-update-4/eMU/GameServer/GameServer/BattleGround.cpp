@@ -4,6 +4,7 @@
 
 #include "stdafx.h"
 #include "BattleGround.h"
+#include "ServerInfo.h"
 
 //////////////////////////////////////////////////////////////////////
 // Construction/Destruction
@@ -22,6 +23,11 @@ CBattleGround::~CBattleGround()
 
 void CBattleGround::SetGroundRect(int map, int x, int y, int xl, int yl)
 {
+	if (gServerInfo.m_CommandBattleSoccerEnable != 1)
+	{
+		return;
+	}
+
 	this->m_MapNumber = map;
 	this->m_rect.left = x;
 	this->m_rect.top = y;

@@ -1,5 +1,7 @@
 #include "StdAfx.h"
 
+std::string g_strSelectedML = "";
+
 HINSTANCE hins;
 
 HICON WINAPI IconProc(HINSTANCE hInstance,LPCSTR lpIconName) // OK
@@ -54,6 +56,10 @@ extern "C" __declspec (dllexport) void __cdecl LABMU()
 		EmptyWorkingSet(GetCurrentProcess());
 
 		//SetByte(0x00542854 + 2, 0); //AUTOCTRL ATIVO
+
+		// Projeto completar interface downgrade s6 se basear por isso
+		//MemorySet(0x005DCACD,0x90,0x5); //IAMGEM 1
+		//MemorySet(0x005DCB02,0x90,0x5); //IMAGEM 2
 
 		if(gProtect.m_MainInfo.TransparencyItem == 1)
 		{
@@ -111,22 +117,23 @@ extern "C" __declspec (dllexport) void __cdecl LABMU()
 		MemoryCpy(0x006B7250, gProtect.m_MainInfo.ClientSerial, sizeof(gProtect.m_MainInfo.ClientSerial)); // ClientSerial
 		//MemorySet(0x0041DBB0, 0x90, 29); // Remove MuError.log
 
+		//MemorySet(0x0063F835,0x90,0x5); // AQUI REMOVE O GUILD CREATE DATE
+
 		//Liberar CS Skills
 		if (gProtect.m_MainInfo.CSSkillCheck == 1)
 		{
-			SetByte(0x005956D5 + 2, 0x00);
-			SetByte(0x005956DA + 2, 0x00);
-			SetByte(0x005956DF + 2, 0x00);
-			SetByte(0x005956E4 + 2, 0x00);
-			SetByte(0x005956E9 + 2, 0x00);
-			SetByte(0x005956EE + 2, 0x00);
-			//----
-			SetByte(0x005951F6 + 2, 0x00);
-			SetByte(0x005951FB + 2, 0x00);
-			SetByte(0x00595200 + 2, 0x00);
-			SetByte(0x00595205 + 2, 0x00);
-			SetByte(0x0059520A + 2, 0x00);
-			SetByte(0x0059520F + 2, 0x00);
+			*(BYTE*)(0x5951F9 + 1) = 0x2B;
+			*(BYTE*)(0x5951FE + 1) = 0x26;
+			*(BYTE*)(0x595203 + 1) = 0x21;
+			*(BYTE*)(0x595208 + 1) = 0x1C;
+			*(BYTE*)(0x59520D + 1) = 0x17;
+			*(BYTE*)(0x595212)     = 0xEB;
+			*(BYTE*)(0x5956D5 + 2) = 0x00;
+			*(BYTE*)(0x5956DA + 2) = 0x00;
+			*(BYTE*)(0x5956DF + 2) = 0x00;
+			*(BYTE*)(0x5956E4 + 2) = 0x00;
+			*(BYTE*)(0x5956E9 + 2) = 0x00;
+			*(BYTE*)(0x5956EE + 2) = 0x00;
 		}
 
 		// Fix ServerList
@@ -361,6 +368,34 @@ extern "C" __declspec (dllexport) void __cdecl LABMU()
 		PlayerLoad();
 
 		SetOp((LPVOID)0x00548B5F, (LPVOID)GlobalMessage, ASM::JMP);
+		
+		//OpenInitFile();
+		//
+		//Console.Init();
+		//
+		//if (_stricmp(gSelection, "ENG") == 0)
+		//{
+		//	SetDword(0x0060AFE8+1,(DWORD)"Data\\Local\\Eng\\Text_eng.bmd");
+		//	SetDword(0x0060B006+1,(DWORD)"Data\\Local\\Eng\\Text_eng.bmd");
+		//	SetDword(0x0060AD1E+1,(DWORD)"Data\\Local\\Eng\\Dialog_eng.bmd");
+		//	SetDword(0x0060AD31+1,(DWORD)"Data\\Local\\Eng\\Quest_eng.bmd");
+		//}
+		//
+		//if (_stricmp(gSelection, "POR") == 0)
+		//{
+		//	SetDword(0x0060AFE8+1,(DWORD)"Data\\Local\\Por\\Text_por.bmd");
+		//	SetDword(0x0060B006+1,(DWORD)"Data\\Local\\Por\\Text_por.bmd");
+		//	SetDword(0x0060AD1E+1,(DWORD)"Data\\Local\\Por\\Dialog_por.bmd");
+		//	SetDword(0x0060AD31+1,(DWORD)"Data\\Local\\Por\\Quest_por.bmd");
+		//}
+		//
+		//if (_stricmp(gSelection, "SPN") == 0)
+		//{
+		//	SetDword(0x0060AFE8+1,(DWORD)"Data\\Local\\Spn\\Text_spn.bmd");
+		//	SetDword(0x0060B006+1,(DWORD)"Data\\Local\\Spn\\Text_spn.bmd");
+		//	SetDword(0x0060AD1E+1,(DWORD)"Data\\Local\\Spn\\Dialog_spn.bmd");
+		//	SetDword(0x0060AD31+1,(DWORD)"Data\\Local\\Spn\\Quest_spn.bmd");
+		//}
 
 		// ---
 		if(gToolKit.Registry("WindowMode") > 0)

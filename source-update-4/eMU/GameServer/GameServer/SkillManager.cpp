@@ -2590,7 +2590,7 @@ bool CSkillManager::SkillCastleSiege(int aIndex,int bIndex,CSkill* lpSkill) // O
 {
 	LPOBJ lpObj = &gObj[aIndex];
 
-	if(lpObj->Map != MAP_CASTLE_SIEGE && lpObj->Map != MAP_LAND_OF_TRIALS)
+	if (gServerInfo.m_EnableCsSkillsAllMaps == 0 && (lpObj->Map != MAP_CASTLE_SIEGE && lpObj->Map != MAP_LAND_OF_TRIALS))
 	{
 		return 0;
 	}

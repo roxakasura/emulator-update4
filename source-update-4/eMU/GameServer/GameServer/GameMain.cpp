@@ -34,13 +34,13 @@ void GameMainInit(HWND hwnd) // OK
 
 	InitHackCheck();
 
-	InitBattleSoccer();
-
 	gGameServerLogOut = 0;
 
 	gGameServerDisconnect = 0;
 
 	gServerInfo.ReadInit();
+
+	InitBattleSoccer();
 
 	gCommandManager.Init();
 

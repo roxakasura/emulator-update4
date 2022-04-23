@@ -16,3 +16,5 @@ public:
 };
 
 extern CAddons gAddons;
+extern char gSelection[4];
+BOOL OpenInitFile();
