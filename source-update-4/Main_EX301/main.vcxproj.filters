@@ -357,9 +357,6 @@
     <ClCompile Include="Main\ToolKit.cpp">
       <Filter>Source\ToolKit</Filter>
     </ClCompile>
-    <ClCompile Include="Main\main.cpp">
-      <Filter>Source\Main</Filter>
-    </ClCompile>
     <ClCompile Include="Main\Util.cpp">
       <Filter>Source\Util</Filter>
     </ClCompile>
@@ -488,6 +485,9 @@
     </ClCompile>
     <ClCompile Include="Main\CustomMap.cpp">
       <Filter>Source\Customs\Maps\CustomMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\main.cpp">
+      <Filter>Source\Common</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

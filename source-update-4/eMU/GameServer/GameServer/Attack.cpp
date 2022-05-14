@@ -183,15 +183,12 @@ bool CAttack::Attack(LPOBJ lpObj,LPOBJ lpTarget,CSkill* lpSkill,bool send,BYTE f
 
 	int skill = ((lpSkill==0)?SKILL_NONE:lpSkill->m_skill);
 
-	if (lpTarget->Type == OBJECT_USER && skill == SKILL_TWISTING_SLASH)
+	//Custom Skill Damage System
+	if(gSkillDamage.GetSkillDamage(lpObj,skill,lpTarget->Type) == 0)
 	{
 		return 0;
 	}
-
-	if (lpTarget->Type == OBJECT_USER && skill == SKILL_POWER_SLASH)
-	{
-		return 0;
-	}
+	//--
 
 	if(damage == 0 && skill != SKILL_PLASMA_STORM && this->DecreaseArrow(lpObj) == 0)
 	{
@@ -476,12 +473,6 @@ bool CAttack::Attack(LPOBJ lpObj,LPOBJ lpTarget,CSkill* lpSkill,bool send,BYTE f
 		{
 			damage = (damage*gSkillDamage.GetSkillDamage(lpObj,skill,lpTarget->Type))/100;
 		}
-		//Custom Skill Damage System
-		else if(gSkillDamage.GetSkillDamage(lpObj,skill,lpTarget->Type) == 0)
-		{
-			return 0;
-		}
-		//--
 
 		if((GetLargeRand()%100) < ((lpObj->DoubleDamageRate)-lpTarget->ResistDoubleDamageRate))
 		{

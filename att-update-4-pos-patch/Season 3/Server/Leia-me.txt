@@ -1,0 +1,3 @@
+em GameServerInfo - Command.dat, procurar por CommandBattleSoccerSyntax e adicionar:
+
+CommandBattleSoccerSwitch = 1

@@ -1,0 +1,500 @@
+﻿Build started 26/04/2022 03:29:58.
+     1>Project "C:\Projetos - RoxGaming\files-update4\source-update-4\eMU\GameServer\GameServer\GameServer.vcxproj" on node 2 (build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>InitializeBuildStatus:
+         Creating "Release\GameServer_EX301CS\GameServer.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D GAMESERVER_TYPE=1 /D GAMESERVER_UPDATE=401 /D GAMESERVER_LANGUAGE=0 /D GAMESERVER_DOWNGRADE=301 /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\GameServer_EX301CS\GameServer.pch" /Fo"Release\GameServer_EX301CS\\" /Fd"Release\GameServer_EX301CS\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D GAMESERVER_TYPE=1 /D GAMESERVER_UPDATE=401 /D GAMESERVER_LANGUAGE=0 /D GAMESERVER_DOWNGRADE=301 /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\GameServer_EX301CS\GameServer.pch" /Fo"Release\GameServer_EX301CS\\" /Fd"Release\GameServer_EX301CS\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\Util\CCRC32.Cpp ..\..\..\Util\Math.cpp 380ItemOption.cpp 380ItemType.cpp ArcaBattle.cpp Attack.cpp BattleGround.cpp BattleSoccer.cpp BattleSoccerManager.cpp BloodCastle.cpp BonusManager.cpp CannonTower.cpp CashShop.cpp CastleDeep.cpp CastleSiege.cpp CastleSiegeCrown.cpp CastleSiegeCrownSwitch.cpp CastleSiegeSync.cpp CastleSiegeWeapon.cpp ChaosBox.cpp ChaosCastle.cpp CoinsPerTime.cpp ComboSkill.cpp CommandManager.cpp Connection.cpp CriticalSection.cpp Crywolf.cpp CrywolfAltar.cpp CrywolfObjInfo.cpp CrywolfStateTimeInfo.cpp CrywolfStatue.cpp CrywolfSync.cpp CrywolfUtil.cpp CSProtocol.cpp CustomArena.cpp CustomAttack.cpp CustomEventDrop.cpp CustomEventTime.cpp CustomJewel.cpp CustomMonster.cpp CustomQuiz.cpp CustomStore.cpp CustomWing.cpp DarkSpirit.cpp DefaultClassInfo.cpp DevilSquare.cpp DoubleGoer.cpp DSProtocol.cpp Duel.cpp Effect.cpp EffectManager.cpp ESProtocol.cpp EventInventory.cpp Extra.cpp RoletaRussa.cpp PegaPega.cpp ExperienceTable.cpp Filter.cpp Fruit.cpp GameMain.cpp GameMaster.cpp GameServer.cpp Gate.cpp GensSystem.cpp GoldenArcher.cpp GuardianStatue.cpp Guild.cpp GuildClass.cpp GuildMatching.cpp HackCheck.cpp HackPacketCheck.cpp Helper.cpp IllusionTemple.cpp ImperialGuardian.cpp InvasionManager.cpp InventoryEquipment.cpp IpManager.cpp Item.cpp ItemBag.cpp ItemBagEx.cpp ItemBagManager.cpp ItemDrop.cpp ItemManager.cpp ItemMove.cpp ItemNewOption.cpp ItemNewType.cpp ItemOption.cpp ItemOptionRate.cpp ItemStack.cpp ItemValue.cpp JewelMix.cpp JewelOfHarmonyOption.cpp JewelOfHarmonyType.cpp JSProtocol.cpp Kalima.cpp Kanturu.cpp KanturuBattleOfMaya.cpp KanturuBattleOfNightmare.cpp KanturuBattleStanby.cpp KanturuBattleUserMng.cpp KanturuEntranceNPC.cpp KanturuMaya.cpp KanturuMonsterMng.cpp KanturuObjInfo.cpp KanturuStateInfo.cpp KanturuTowerOfRefinement.cpp KanturuUtil.cpp LifeStone.cpp Log.cpp LuckyCoin.cpp LuckyItem.cpp Map.cpp MapItem.cpp MapManager.cpp MapPath.cpp MapServerManager.cpp MasterSkillTree.cpp MataMataAll.cpp MemoryAllocator.cpp MemoryAllocatorInfo.cpp MemScript.cpp Mercenary.cpp Message.cpp MiniDump.cpp MiniMap.cpp MiningSystem.cpp Monster.cpp MonsterAI.cpp MonsterAIAgro.cpp MonsterAIAutomata.cpp MonsterAIAutomataInfo.cpp MonsterAIElement.cpp MonsterAIElementInfo.cpp MonsterAIGroup.cpp MonsterAIGroupMember.cpp MonsterAIMovePath.cpp MonsterAIMovePathInfo.cpp MonsterAIRule.cpp MonsterAIRuleInfo.cpp MonsterAIState.cpp MonsterAIUnit.cpp MonsterAIUnitInfo.cpp MonsterAIUtil.cpp MonsterManager.cpp MonsterSetBase.cpp MonsterSkillElement.cpp MonsterSkillElementInfo.cpp MonsterSkillElementOption.cpp MonsterSkillInfo.cpp MonsterSkillManager.cpp MonsterSkillUnit.cpp MonsterSkillUnitInfo.cpp MossMerchant.cpp Move.cpp MoveCustom.cpp MoveSummon.cpp MuRummy.cpp MuunSystem.cpp Notice.cpp NpcCollector.cpp NpcCommand.cpp NpcMessage.cpp NpcTalk.cpp ObjectManager.cpp PacketManager.cpp Party.cpp PartyMatching.cpp Path.cpp PcPoint.cpp PentagramSystem.cpp PersonalShop.cpp Protect.cpp Protocol.cpp Quest.cpp QuestObjective.cpp QuestReward.cpp QuestWorld.cpp QuestWorldObjective.cpp QuestWorldReward.cpp Queue.cpp QueueTimer.cpp Raklion.cpp RaklionBattleOfSelupan.cpp RaklionBattleUser.cpp RaklionBattleUserMng.cpp RaklionObjInfo.cpp RaklionSelupan.cpp RaklionUtil.cpp RandomManager.cpp Reconnect.cpp ResetTable.cpp ScheduleManager.cpp SerialCheck.cpp ServerDisplayer.cpp ServerInfo.cpp SetItemOption.cpp SetItemType.cpp Shop.cpp ShopManager.cpp Skill.cpp SkillDamage.cpp SkillHitBox.cpp SkillManager.cpp SocketItemOption.cpp SocketItemType.cpp SocketManager.cpp SocketManagerUdp.cpp StartItem.cpp SummonScroll.cpp Trade.cpp Union.cpp UnionInfo.cpp User.cpp Util.cpp Viewport.cpp Warehouse.cpp
+         CCRC32.Cpp
+         Math.cpp
+         380ItemOption.cpp
+         380ItemType.cpp
+         ArcaBattle.cpp
+     1>ArcaBattle.cpp(854): warning C4018: '>=' : signed/unsigned mismatch
+     1>ArcaBattle.cpp(876): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>ArcaBattle.cpp(877): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         Attack.cpp
+         BattleGround.cpp
+         BattleSoccer.cpp
+         BattleSoccerManager.cpp
+         BloodCastle.cpp
+     1>BloodCastle.cpp(2267): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(112) : see declaration of 'localtime'
+         BonusManager.cpp
+         CannonTower.cpp
+         CashShop.cpp
+         CastleDeep.cpp
+         CastleSiege.cpp
+         CastleSiegeCrown.cpp
+         CastleSiegeCrownSwitch.cpp
+         CastleSiegeSync.cpp
+         CastleSiegeWeapon.cpp
+         ChaosBox.cpp
+         Compiling...
+         ChaosCastle.cpp
+     1>ChaosCastle.cpp(1848): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(112) : see declaration of 'localtime'
+         CoinsPerTime.cpp
+         ComboSkill.cpp
+         CommandManager.cpp
+     1>CommandManager.cpp(2061): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strcmpi. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(245) : see declaration of 'strcmpi'
+     1>CommandManager.cpp(2081): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strcmpi. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(245) : see declaration of 'strcmpi'
+         Connection.cpp
+         CriticalSection.cpp
+         Crywolf.cpp
+         CrywolfAltar.cpp
+         CrywolfObjInfo.cpp
+         CrywolfStateTimeInfo.cpp
+         CrywolfStatue.cpp
+         CrywolfSync.cpp
+         CrywolfUtil.cpp
+         CSProtocol.cpp
+         CustomArena.cpp
+         CustomAttack.cpp
+         CustomEventDrop.cpp
+         CustomEventTime.cpp
+         CustomJewel.cpp
+         CustomMonster.cpp
+         Compiling...
+         CustomQuiz.cpp
+     1>CustomQuiz.cpp(409): warning C4996: '_strlwr': This function or variable may be unsafe. Consider using _strlwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(164) : see declaration of '_strlwr'
+     1>CustomQuiz.cpp(441): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(112) : see declaration of 'localtime'
+         CustomStore.cpp
+         CustomWing.cpp
+         DarkSpirit.cpp
+         DefaultClassInfo.cpp
+         DevilSquare.cpp
+     1>DevilSquare.cpp(1544): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(112) : see declaration of 'localtime'
+         DoubleGoer.cpp
+         DSProtocol.cpp
+         Duel.cpp
+     1>Duel.cpp(48): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>Duel.cpp(137): warning C4101: 'szTempText' : unreferenced local variable
+         Effect.cpp
+         EffectManager.cpp
+         ESProtocol.cpp
+         EventInventory.cpp
+         Extra.cpp
+         RoletaRussa.cpp
+         PegaPega.cpp
+         ExperienceTable.cpp
+         Filter.cpp
+         Fruit.cpp
+         GameMain.cpp
+         Compiling...
+         GameMaster.cpp
+         GameServer.cpp
+         Gate.cpp
+         GensSystem.cpp
+         GoldenArcher.cpp
+     1>GoldenArcher.cpp(252): warning C4018: '>=' : signed/unsigned mismatch
+         GuardianStatue.cpp
+         Guild.cpp
+     1>Guild.cpp(713): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(112) : see declaration of 'localtime'
+     1>Guild.cpp(755): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+         GuildClass.cpp
+         GuildMatching.cpp
+         HackCheck.cpp
+         HackPacketCheck.cpp
+         Helper.cpp
+         IllusionTemple.cpp
+     1>IllusionTemple.cpp(2260): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(112) : see declaration of 'localtime'
+         ImperialGuardian.cpp
+         InvasionManager.cpp
+         InventoryEquipment.cpp
+         IpManager.cpp
+         Item.cpp
+         ItemBag.cpp
+         ItemBagEx.cpp
+         Compiling...
+         ItemBagManager.cpp
+         ItemDrop.cpp
+         ItemManager.cpp
+         ItemMove.cpp
+         ItemNewOption.cpp
+         ItemNewType.cpp
+         ItemOption.cpp
+         ItemOptionRate.cpp
+         ItemStack.cpp
+         ItemValue.cpp
+         JewelMix.cpp
+         JewelOfHarmonyOption.cpp
+         JewelOfHarmonyType.cpp
+         JSProtocol.cpp
+     1>JSProtocol.cpp(127): warning C4244: 'argument' : conversion from 'long' to 'WORD', possible loss of data
+         Kalima.cpp
+         Kanturu.cpp
+         KanturuBattleOfMaya.cpp
+         KanturuBattleOfNightmare.cpp
+         KanturuBattleStanby.cpp
+         KanturuBattleUserMng.cpp
+         Compiling...
+         KanturuEntranceNPC.cpp
+         KanturuMaya.cpp
+         KanturuMonsterMng.cpp
+         KanturuObjInfo.cpp
+         KanturuStateInfo.cpp
+         KanturuTowerOfRefinement.cpp
+         KanturuUtil.cpp
+         LifeStone.cpp
+         Log.cpp
+         LuckyCoin.cpp
+         LuckyItem.cpp
+         Map.cpp
+         MapItem.cpp
+         MapManager.cpp
+         MapPath.cpp
+         MapServerManager.cpp
+         MasterSkillTree.cpp
+         MataMataAll.cpp
+         MemoryAllocator.cpp
+         MemoryAllocatorInfo.cpp
+         Compiling...
+         MemScript.cpp
+         Mercenary.cpp
+         Message.cpp
+         MiniDump.cpp
+         MiniMap.cpp
+         MiningSystem.cpp
+         Monster.cpp
+         MonsterAI.cpp
+         MonsterAIAgro.cpp
+         MonsterAIAutomata.cpp
+         MonsterAIAutomataInfo.cpp
+         MonsterAIElement.cpp
+         MonsterAIElementInfo.cpp
+         MonsterAIGroup.cpp
+         MonsterAIGroupMember.cpp
+         MonsterAIMovePath.cpp
+         MonsterAIMovePathInfo.cpp
+         MonsterAIRule.cpp
+         MonsterAIRuleInfo.cpp
+         MonsterAIState.cpp
+         Compiling...
+         MonsterAIUnit.cpp
+         MonsterAIUnitInfo.cpp
+         MonsterAIUtil.cpp
+         MonsterManager.cpp
+         MonsterSetBase.cpp
+         MonsterSkillElement.cpp
+         MonsterSkillElementInfo.cpp
+         MonsterSkillElementOption.cpp
+         MonsterSkillInfo.cpp
+         MonsterSkillManager.cpp
+         MonsterSkillUnit.cpp
+         MonsterSkillUnitInfo.cpp
+         MossMerchant.cpp
+         Move.cpp
+         MoveCustom.cpp
+         MoveSummon.cpp
+         MuRummy.cpp
+         MuunSystem.cpp
+         Notice.cpp
+     1>Notice.cpp(228): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+         NpcCollector.cpp
+         Compiling...
+         NpcCommand.cpp
+         NpcMessage.cpp
+         NpcTalk.cpp
+         ObjectManager.cpp
+         PacketManager.cpp
+         Party.cpp
+         PartyMatching.cpp
+         Path.cpp
+         PcPoint.cpp
+         PentagramSystem.cpp
+         PersonalShop.cpp
+         Protect.cpp
+         Protocol.cpp
+         Quest.cpp
+         QuestObjective.cpp
+         QuestReward.cpp
+         QuestWorld.cpp
+         QuestWorldObjective.cpp
+         QuestWorldReward.cpp
+         Queue.cpp
+         Compiling...
+         QueueTimer.cpp
+         Raklion.cpp
+         RaklionBattleOfSelupan.cpp
+         RaklionBattleUser.cpp
+         RaklionBattleUserMng.cpp
+         RaklionObjInfo.cpp
+         RaklionSelupan.cpp
+         RaklionUtil.cpp
+         RandomManager.cpp
+         Reconnect.cpp
+         ResetTable.cpp
+         ScheduleManager.cpp
+         SerialCheck.cpp
+         ServerDisplayer.cpp
+         ServerInfo.cpp
+         SetItemOption.cpp
+         SetItemType.cpp
+         Shop.cpp
+         ShopManager.cpp
+         Skill.cpp
+         Compiling...
+         SkillDamage.cpp
+     1>SkillDamage.cpp(100): warning C4101: 'SkillDamageInfo' : unreferenced local variable
+         SkillHitBox.cpp
+         SkillManager.cpp
+     1>SkillManager.cpp(1492): warning C4244: 'argument' : conversion from 'WORD' to 'BYTE', possible loss of data
+         SocketItemOption.cpp
+         SocketItemType.cpp
+         SocketManager.cpp
+         SocketManagerUdp.cpp
+         StartItem.cpp
+         SummonScroll.cpp
+         Trade.cpp
+         Union.cpp
+         UnionInfo.cpp
+         User.cpp
+         Util.cpp
+         Viewport.cpp
+         Warehouse.cpp
+       ResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Release\GameServer_EX301CS\GameServer.res" GameServer.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\RoxGaming - Nova Base - 2022\Server_EX301\GameServerCS\GameServer.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\GameServer_EX301CS\GameServer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\RoxGaming - Nova Base - 2022\Server_EX301\GameServerCS\GameServer.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\RoxGaming - Nova Base - 2022\Server_EX301\GameServerCS\GameServer.lib" /MACHINE:X86 Release\GameServer_EX301CS\GameServer.res
+         Release\GameServer_EX301CS\CCRC32.obj
+         Release\GameServer_EX301CS\Math.obj
+         Release\GameServer_EX301CS\380ItemOption.obj
+         Release\GameServer_EX301CS\380ItemType.obj
+         Release\GameServer_EX301CS\ArcaBattle.obj
+         Release\GameServer_EX301CS\Attack.obj
+         Release\GameServer_EX301CS\BattleGround.obj
+         Release\GameServer_EX301CS\BattleSoccer.obj
+         Release\GameServer_EX301CS\BattleSoccerManager.obj
+         Release\GameServer_EX301CS\BloodCastle.obj
+         Release\GameServer_EX301CS\BonusManager.obj
+         Release\GameServer_EX301CS\CannonTower.obj
+         Release\GameServer_EX301CS\CashShop.obj
+         Release\GameServer_EX301CS\CastleDeep.obj
+         Release\GameServer_EX301CS\CastleSiege.obj
+         Release\GameServer_EX301CS\CastleSiegeCrown.obj
+         Release\GameServer_EX301CS\CastleSiegeCrownSwitch.obj
+         Release\GameServer_EX301CS\CastleSiegeSync.obj
+         Release\GameServer_EX301CS\CastleSiegeWeapon.obj
+         Release\GameServer_EX301CS\ChaosBox.obj
+         Release\GameServer_EX301CS\ChaosCastle.obj
+         Release\GameServer_EX301CS\CoinsPerTime.obj
+         Release\GameServer_EX301CS\ComboSkill.obj
+         Release\GameServer_EX301CS\CommandManager.obj
+         Release\GameServer_EX301CS\Connection.obj
+         Release\GameServer_EX301CS\CriticalSection.obj
+         Release\GameServer_EX301CS\Crywolf.obj
+         Release\GameServer_EX301CS\CrywolfAltar.obj
+         Release\GameServer_EX301CS\CrywolfObjInfo.obj
+         Release\GameServer_EX301CS\CrywolfStateTimeInfo.obj
+         Release\GameServer_EX301CS\CrywolfStatue.obj
+         Release\GameServer_EX301CS\CrywolfSync.obj
+         Release\GameServer_EX301CS\CrywolfUtil.obj
+         Release\GameServer_EX301CS\CSProtocol.obj
+         Release\GameServer_EX301CS\CustomArena.obj
+         Release\GameServer_EX301CS\CustomAttack.obj
+         Release\GameServer_EX301CS\CustomEventDrop.obj
+         Release\GameServer_EX301CS\CustomEventTime.obj
+         Release\GameServer_EX301CS\CustomJewel.obj
+         Release\GameServer_EX301CS\CustomMonster.obj
+         Release\GameServer_EX301CS\CustomQuiz.obj
+         Release\GameServer_EX301CS\CustomStore.obj
+         Release\GameServer_EX301CS\CustomWing.obj
+         Release\GameServer_EX301CS\DarkSpirit.obj
+         Release\GameServer_EX301CS\DefaultClassInfo.obj
+         Release\GameServer_EX301CS\DevilSquare.obj
+         Release\GameServer_EX301CS\DoubleGoer.obj
+         Release\GameServer_EX301CS\DSProtocol.obj
+         Release\GameServer_EX301CS\Duel.obj
+         Release\GameServer_EX301CS\Effect.obj
+         Release\GameServer_EX301CS\EffectManager.obj
+         Release\GameServer_EX301CS\ESProtocol.obj
+         Release\GameServer_EX301CS\EventInventory.obj
+         Release\GameServer_EX301CS\Extra.obj
+         Release\GameServer_EX301CS\RoletaRussa.obj
+         Release\GameServer_EX301CS\PegaPega.obj
+         Release\GameServer_EX301CS\ExperienceTable.obj
+         Release\GameServer_EX301CS\Filter.obj
+         Release\GameServer_EX301CS\Fruit.obj
+         Release\GameServer_EX301CS\GameMain.obj
+         Release\GameServer_EX301CS\GameMaster.obj
+         Release\GameServer_EX301CS\GameServer.obj
+         Release\GameServer_EX301CS\Gate.obj
+         Release\GameServer_EX301CS\GensSystem.obj
+         Release\GameServer_EX301CS\GoldenArcher.obj
+         Release\GameServer_EX301CS\GuardianStatue.obj
+         Release\GameServer_EX301CS\Guild.obj
+         Release\GameServer_EX301CS\GuildClass.obj
+         Release\GameServer_EX301CS\GuildMatching.obj
+         Release\GameServer_EX301CS\HackCheck.obj
+         Release\GameServer_EX301CS\HackPacketCheck.obj
+         Release\GameServer_EX301CS\Helper.obj
+         Release\GameServer_EX301CS\IllusionTemple.obj
+         Release\GameServer_EX301CS\ImperialGuardian.obj
+         Release\GameServer_EX301CS\InvasionManager.obj
+         Release\GameServer_EX301CS\InventoryEquipment.obj
+         Release\GameServer_EX301CS\IpManager.obj
+         Release\GameServer_EX301CS\Item.obj
+         Release\GameServer_EX301CS\ItemBag.obj
+         Release\GameServer_EX301CS\ItemBagEx.obj
+         Release\GameServer_EX301CS\ItemBagManager.obj
+         Release\GameServer_EX301CS\ItemDrop.obj
+         Release\GameServer_EX301CS\ItemManager.obj
+         Release\GameServer_EX301CS\ItemMove.obj
+         Release\GameServer_EX301CS\ItemNewOption.obj
+         Release\GameServer_EX301CS\ItemNewType.obj
+         Release\GameServer_EX301CS\ItemOption.obj
+         Release\GameServer_EX301CS\ItemOptionRate.obj
+         Release\GameServer_EX301CS\ItemStack.obj
+         Release\GameServer_EX301CS\ItemValue.obj
+         Release\GameServer_EX301CS\JewelMix.obj
+         Release\GameServer_EX301CS\JewelOfHarmonyOption.obj
+         Release\GameServer_EX301CS\JewelOfHarmonyType.obj
+         Release\GameServer_EX301CS\JSProtocol.obj
+         Release\GameServer_EX301CS\Kalima.obj
+         Release\GameServer_EX301CS\Kanturu.obj
+         Release\GameServer_EX301CS\KanturuBattleOfMaya.obj
+         Release\GameServer_EX301CS\KanturuBattleOfNightmare.obj
+         Release\GameServer_EX301CS\KanturuBattleStanby.obj
+         Release\GameServer_EX301CS\KanturuBattleUserMng.obj
+         Release\GameServer_EX301CS\KanturuEntranceNPC.obj
+         Release\GameServer_EX301CS\KanturuMaya.obj
+         Release\GameServer_EX301CS\KanturuMonsterMng.obj
+         Release\GameServer_EX301CS\KanturuObjInfo.obj
+         Release\GameServer_EX301CS\KanturuStateInfo.obj
+         Release\GameServer_EX301CS\KanturuTowerOfRefinement.obj
+         Release\GameServer_EX301CS\KanturuUtil.obj
+         Release\GameServer_EX301CS\LifeStone.obj
+         Release\GameServer_EX301CS\Log.obj
+         Release\GameServer_EX301CS\LuckyCoin.obj
+         Release\GameServer_EX301CS\LuckyItem.obj
+         Release\GameServer_EX301CS\Map.obj
+         Release\GameServer_EX301CS\MapItem.obj
+         Release\GameServer_EX301CS\MapManager.obj
+         Release\GameServer_EX301CS\MapPath.obj
+         Release\GameServer_EX301CS\MapServerManager.obj
+         Release\GameServer_EX301CS\MasterSkillTree.obj
+         Release\GameServer_EX301CS\MataMataAll.obj
+         Release\GameServer_EX301CS\MemoryAllocator.obj
+         Release\GameServer_EX301CS\MemoryAllocatorInfo.obj
+         Release\GameServer_EX301CS\MemScript.obj
+         Release\GameServer_EX301CS\Mercenary.obj
+         Release\GameServer_EX301CS\Message.obj
+         Release\GameServer_EX301CS\MiniDump.obj
+         Release\GameServer_EX301CS\MiniMap.obj
+         Release\GameServer_EX301CS\MiningSystem.obj
+         Release\GameServer_EX301CS\Monster.obj
+         Release\GameServer_EX301CS\MonsterAI.obj
+         Release\GameServer_EX301CS\MonsterAIAgro.obj
+         Release\GameServer_EX301CS\MonsterAIAutomata.obj
+         Release\GameServer_EX301CS\MonsterAIAutomataInfo.obj
+         Release\GameServer_EX301CS\MonsterAIElement.obj
+         Release\GameServer_EX301CS\MonsterAIElementInfo.obj
+         Release\GameServer_EX301CS\MonsterAIGroup.obj
+         Release\GameServer_EX301CS\MonsterAIGroupMember.obj
+         Release\GameServer_EX301CS\MonsterAIMovePath.obj
+         Release\GameServer_EX301CS\MonsterAIMovePathInfo.obj
+         Release\GameServer_EX301CS\MonsterAIRule.obj
+         Release\GameServer_EX301CS\MonsterAIRuleInfo.obj
+         Release\GameServer_EX301CS\MonsterAIState.obj
+         Release\GameServer_EX301CS\MonsterAIUnit.obj
+         Release\GameServer_EX301CS\MonsterAIUnitInfo.obj
+         Release\GameServer_EX301CS\MonsterAIUtil.obj
+         Release\GameServer_EX301CS\MonsterManager.obj
+         Release\GameServer_EX301CS\MonsterSetBase.obj
+         Release\GameServer_EX301CS\MonsterSkillElement.obj
+         Release\GameServer_EX301CS\MonsterSkillElementInfo.obj
+         Release\GameServer_EX301CS\MonsterSkillElementOption.obj
+         Release\GameServer_EX301CS\MonsterSkillInfo.obj
+         Release\GameServer_EX301CS\MonsterSkillManager.obj
+         Release\GameServer_EX301CS\MonsterSkillUnit.obj
+         Release\GameServer_EX301CS\MonsterSkillUnitInfo.obj
+         Release\GameServer_EX301CS\MossMerchant.obj
+         Release\GameServer_EX301CS\Move.obj
+         Release\GameServer_EX301CS\MoveCustom.obj
+         Release\GameServer_EX301CS\MoveSummon.obj
+         Release\GameServer_EX301CS\MuRummy.obj
+         Release\GameServer_EX301CS\MuunSystem.obj
+         Release\GameServer_EX301CS\Notice.obj
+         Release\GameServer_EX301CS\NpcCollector.obj
+         Release\GameServer_EX301CS\NpcCommand.obj
+         Release\GameServer_EX301CS\NpcMessage.obj
+         Release\GameServer_EX301CS\NpcTalk.obj
+         Release\GameServer_EX301CS\ObjectManager.obj
+         Release\GameServer_EX301CS\PacketManager.obj
+         Release\GameServer_EX301CS\Party.obj
+         Release\GameServer_EX301CS\PartyMatching.obj
+         Release\GameServer_EX301CS\Path.obj
+         Release\GameServer_EX301CS\PcPoint.obj
+         Release\GameServer_EX301CS\PentagramSystem.obj
+         Release\GameServer_EX301CS\PersonalShop.obj
+         Release\GameServer_EX301CS\Protect.obj
+         Release\GameServer_EX301CS\Protocol.obj
+         Release\GameServer_EX301CS\Quest.obj
+         Release\GameServer_EX301CS\QuestObjective.obj
+         Release\GameServer_EX301CS\QuestReward.obj
+         Release\GameServer_EX301CS\QuestWorld.obj
+         Release\GameServer_EX301CS\QuestWorldObjective.obj
+         Release\GameServer_EX301CS\QuestWorldReward.obj
+         Release\GameServer_EX301CS\Queue.obj
+         Release\GameServer_EX301CS\QueueTimer.obj
+         Release\GameServer_EX301CS\Raklion.obj
+         Release\GameServer_EX301CS\RaklionBattleOfSelupan.obj
+         Release\GameServer_EX301CS\RaklionBattleUser.obj
+         Release\GameServer_EX301CS\RaklionBattleUserMng.obj
+         Release\GameServer_EX301CS\RaklionObjInfo.obj
+         Release\GameServer_EX301CS\RaklionSelupan.obj
+         Release\GameServer_EX301CS\RaklionUtil.obj
+         Release\GameServer_EX301CS\RandomManager.obj
+         Release\GameServer_EX301CS\Reconnect.obj
+         Release\GameServer_EX301CS\ResetTable.obj
+         Release\GameServer_EX301CS\ScheduleManager.obj
+         Release\GameServer_EX301CS\SerialCheck.obj
+         Release\GameServer_EX301CS\ServerDisplayer.obj
+         Release\GameServer_EX301CS\ServerInfo.obj
+         Release\GameServer_EX301CS\SetItemOption.obj
+         Release\GameServer_EX301CS\SetItemType.obj
+         Release\GameServer_EX301CS\Shop.obj
+         Release\GameServer_EX301CS\ShopManager.obj
+         Release\GameServer_EX301CS\Skill.obj
+         Release\GameServer_EX301CS\SkillDamage.obj
+         Release\GameServer_EX301CS\SkillHitBox.obj
+         Release\GameServer_EX301CS\SkillManager.obj
+         Release\GameServer_EX301CS\SocketItemOption.obj
+         Release\GameServer_EX301CS\SocketItemType.obj
+         Release\GameServer_EX301CS\SocketManager.obj
+         Release\GameServer_EX301CS\SocketManagerUdp.obj
+         Release\GameServer_EX301CS\StartItem.obj
+         Release\GameServer_EX301CS\stdafx.obj
+         Release\GameServer_EX301CS\SummonScroll.obj
+         Release\GameServer_EX301CS\Trade.obj
+         Release\GameServer_EX301CS\Union.obj
+         Release\GameServer_EX301CS\UnionInfo.obj
+         Release\GameServer_EX301CS\User.obj
+         Release\GameServer_EX301CS\Util.obj
+         Release\GameServer_EX301CS\Viewport.obj
+         Release\GameServer_EX301CS\Warehouse.obj
+         Generating code
+         Finished generating code
+         GameServer.vcxproj -> C:\RoxGaming - Nova Base - 2022\Server_EX301\GameServerCS\GameServer.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\RoxGaming - Nova Base - 2022\Server_EX301\GameServerCS\GameServer.exe;#1" /manifest Release\GameServer_EX301CS\GameServer.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\GameServer_EX301CS\GameServer.unsuccessfulbuild".
+         Touching "Release\GameServer_EX301CS\GameServer.lastbuildstate".
+     1>Done Building Project "C:\Projetos - RoxGaming\files-update4\source-update-4\eMU\GameServer\GameServer\GameServer.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:38.47

@@ -265,6 +265,7 @@ CommandGuildWarSyntax = /guildwar
 ;==================================================
 ; Battle Soccer Command Settings
 ;==================================================
+CommandBattleSoccerSwitch = 1
 CommandBattleSoccerSyntax = /battlesoccer
 
 ;==================================================
