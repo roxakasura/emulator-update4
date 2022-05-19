@@ -31,6 +31,7 @@
 #include "MataMataAll.h"
 #include "PegaPega.h"
 #include "RoletaRussa.h"
+#include "StartItem.h"
 
 CCommandManager gCommandManager;
 //////////////////////////////////////////////////////////////////////
@@ -96,6 +97,7 @@ void CCommandManager::Init() // OK
 	this->Add("/matamata", COMMAND_KILLALL);
 	this->Add("/pegapega", COMMAND_EVENTGET);
 	this->Add("/roletarussa",COMMAND_EVENTROULETTE);
+	this->Add("/bonus",43);
 }
 
 void CCommandManager::MainProc() // OK
@@ -353,6 +355,11 @@ bool CCommandManager::ManagementCore(LPOBJ lpObj,char* message) // OK
 		case COMMAND_EVENTROULETTE:
 			gEventRussianRoulette.CommandEventRussianRoulette(lpObj,argument);
 			break;
+#if(LUCIANO==1)
+		case 43:
+			this->CommandBonus(lpObj,argument);
+			break;
+#endif
 		default:
 			return 0;
 	}
@@ -2104,4 +2111,22 @@ void CCommandManager::CommandEZen(LPOBJ lpObj,char* arg) // OK
 		gNotice.GCNoticeSend(lpObj->Index, 1, 0, 0, 0, 0, 0, "deposito");
 		return;
 	}
+}
+
+void CCommandManager::CommandBonus(LPOBJ lpObj,char* arg) // OK
+{
+	if(gServerInfo.m_CustomItemStartSwitch[lpObj->AccountLevel] == 0)
+	{
+		return;
+	}
+
+	if(lpObj->TheGift > 0)
+	{
+		gNotice.GCNoticeSend(lpObj->Index,1,0,0,0,0,0,"Você já recebeu seu bônus");
+		return;
+	}
+	
+	gGiftNew.GiftItem(lpObj); // only add in is void
+
+	gLog.Output(LOG_COMMAND,"[CommandBonus][%s][%s] - (Bonus: %d)",lpObj->Account,lpObj->Name,lpObj->TheGift);
 }

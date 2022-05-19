@@ -7,7 +7,12 @@
 #include "Protocol.h"
 #include "User.h"
 
+#if(LUCIANO==0)
 #define MAX_COMMAND 42
+#elif(LUCIANO==1)
+#define MAX_COMMAND 43
+#endif
+
 
 enum eCommandNumber
 {
@@ -161,6 +166,7 @@ public:
 	//
 	void CommandClearWarehouse(LPOBJ lpObj, char* arg);
 	void CommandEZen(LPOBJ lpObj,char* arg);
+	void CommandBonus(LPOBJ lpObj,char* arg);
 private:
 	COMMAND_INFO m_CommandInfo[MAX_COMMAND];
 };

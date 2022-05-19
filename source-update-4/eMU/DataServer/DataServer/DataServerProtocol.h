@@ -18,6 +18,8 @@
 #define MAX_SKILL_LIST 60
 #endif
 
+#define LUCIANO 0
+
 #define SET_NUMBERHB(x) ((BYTE)((DWORD)(x)>>(DWORD)8))
 #define SET_NUMBERLB(x) ((BYTE)((DWORD)(x)&0xFF))
 #define SET_NUMBERHW(x) ((WORD)((DWORD)(x)>>(DWORD)16))

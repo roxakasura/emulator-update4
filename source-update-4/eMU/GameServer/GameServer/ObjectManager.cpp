@@ -399,6 +399,36 @@ void CObjectManager::ObjectSetStateProc() // OK
 
 			gDarkSpirit[lpObj->Index].SetMode(DARK_SPIRIT_MODE_NORMAL,-1);
 
+#if(VICTOR==1)
+			switch(lpObj->KillerType)
+			{
+				case 0:
+					if(this->CharacterGetRespawnLocation(lpObj) == 0)
+					{
+						gMap[lpObj->Map].GetMapRandomPos(&lpObj->X,&lpObj->Y,2);
+					}
+					break;
+				case 1:
+					if(this->CharacterGetRespawnLocation(lpObj) == 0)
+					{
+						gMap[lpObj->Map].GetMapRandomPos(&lpObj->X,&lpObj->Y,2);
+					}
+					break;
+				case 2:
+					if(lpObj->Guild == 0 || lpObj->Guild->WarType != 1)
+					{
+						gMap[lpObj->Map].GetMapRandomPos(&lpObj->X,&lpObj->Y,18);
+					}
+					else
+					{
+						gBattleGetTeamPosition(lpObj->Guild->BattleGroundIndex,lpObj->Guild->BattleTeamCode,(short&)lpObj->X,(short&)lpObj->Y);
+					}
+					break;
+				case 3:
+					gDuel.RespawnDuelUser(lpObj);
+					break;
+			}
+#elif(VICTOR==0)
 			switch(lpObj->KillerType)
 			{
 				case 0:
@@ -427,6 +457,7 @@ void CObjectManager::ObjectSetStateProc() // OK
 					gDuel.RespawnDuelUser(lpObj);
 					break;
 			}
+#endif
 
 			if(this->CharacterMapServerMove(lpObj->Index,lpObj->Map,lpObj->X,lpObj->Y) != 0)
 			{
@@ -944,7 +975,7 @@ bool CObjectManager::CharacterGetRespawnLocation(LPOBJ lpObj) // OK
 	{
 		result = gCustomArena.GetUserRespawnLocation(lpObj,&gate,&map,&x,&y,&dir,&level);
 	}
-	else if(lpObj->Map == MAP_ARENA)
+	else if(lpObj->Map == MAP_ARENA && VICTOR == 0)
 	{
 		result = gGate.GetGate(115,&gate,&map,&x,&y,&dir,&level);
 	}

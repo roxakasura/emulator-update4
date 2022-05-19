@@ -1228,10 +1228,12 @@ void DGCharacterInfoRecv(SDHP_CHARACTER_INFO_RECV* lpMsg) // OK
 
 	gQuest.GCQuestInfoSend(lpObj->Index);
 
+#if(LUCIANO==0)
 	if (gServerInfo.m_CustomItemStartSwitch[lpObj->AccountLevel] == 1)
 	{
 		gGiftNew.GiftItem(lpObj); // only add in is void
 	}
+#endif
 
 	#if(GAMESERVER_UPDATE>=501)
 
@@ -4174,7 +4176,11 @@ void GDSaveTheGiftData(int aIndex)
 	LPOBJ lpUser = &gObj[aIndex];
 	THEGIFT_GD_SAVE_DATA pRequest;
 	pRequest.header.set(0xD9, 0x07, sizeof(pRequest));
+#if(LUCIANO==0)
 	memcpy(pRequest.Name, lpUser->Name, 11);
+#elif(LUCIANO==1)
+	memcpy(pRequest.Name, lpUser->Account, 11);
+#endif
 	pRequest.index	= aIndex;
 	pRequest.TheGift = lpUser->TheGift;
 	gDataServerConnection.DataSend((BYTE*)&pRequest,pRequest.header.size);

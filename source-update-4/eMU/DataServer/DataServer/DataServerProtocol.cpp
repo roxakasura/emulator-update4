@@ -1184,7 +1184,9 @@ void GDCharacterInfoRecv(SDHP_CHARACTER_INFO_RECV* lpMsg,int index) // OK
 
 		pMsg.MaxBP = (DWORD)gQueryManager.GetAsFloat("MaxBP");
 
+#if(LUCIANO==0)
 		pMsg.TheGift = gQueryManager.GetAsInteger("StartItem"); // only add in is void
+#endif
 
 #if(WILLIAMCUSTOM)
 		pMsg.ExpWar = gQueryManager.GetAsInteger("ExpWar"); // only add in is void
@@ -1228,17 +1230,16 @@ void GDCharacterInfoRecv(SDHP_CHARACTER_INFO_RECV* lpMsg,int index) // OK
 
 		gQueryManager.Close();
 
-		#if(DATASERVER_UPDATE>=602)
 
-		gQueryManager.ExecQuery("SELECT ExtWarehouse FROM AccountCharacter WHERE Id='%s'",lpMsg->account);
+#if(LUCIANO==1)
+		gQueryManager.ExecQuery("SELECT StartItem FROM MEMB_INFO WHERE memb___id='%s'",lpMsg->account);
 
 		gQueryManager.Fetch();
 
-		pMsg.ExtWarehouse = (BYTE)gQueryManager.GetAsInteger("ExtWarehouse");
+		pMsg.TheGift = (BYTE)gQueryManager.GetAsInteger("StartItem");
 
 		gQueryManager.Close();
-
-		#endif
+#endif
 
 		gQueryManager.ExecQuery("EXEC WZ_GetResetInfo '%s','%s'",lpMsg->account,lpMsg->name);
 
@@ -3133,8 +3134,13 @@ void DS_GDReqCastleNpcUpdate(BYTE *lpRecv, int aIndex)
 
 void GDSaveTheGiftRecv(THEGIFT_GD_SAVE_DATA* lpMsg) // OK
 {
+#if(LUCIANO==0)
     gQueryManager.ExecQuery("UPDATE Character SET StartItem = %d WHERE Name = '%s'",lpMsg->TheGift, lpMsg->Name);
     gQueryManager.Close();
+#elif(LUCIANO==1)
+    gQueryManager.ExecQuery("UPDATE MEMB_INFO SET StartItem = %d WHERE memb___id = '%s'",lpMsg->TheGift, lpMsg->Name);
+    gQueryManager.Close();
+#endif
 }
 
 void GDSetCoinRecv(SDHP_SETCOIN_RECV* lpMsg) // OK

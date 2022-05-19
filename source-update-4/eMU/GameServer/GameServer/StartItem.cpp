@@ -127,10 +127,12 @@ void CGift::Load(char* path) // OK
 
 void CGift::GiftItem(LPOBJ lpObj)
 {
-	if(lpObj->TheGift >= 1)
-	{
-		return;
-	}
+	#if(LUCIANO==0)
+		if(lpObj->TheGift >= 1)
+		{
+			return;
+		}
+	#endif
 	
 	lpObj->TheGift += 1;
 	GDSaveTheGiftData(lpObj->Index);

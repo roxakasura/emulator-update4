@@ -1242,7 +1242,14 @@ void gObjMonsterAttack(LPOBJ lpObj,LPOBJ lpTarget) // OK
 
 			pMsg.index[1] = SET_NUMBERLB(lpObj->TargetNumber);
 
-			pMsg.action = ACTION_ATTACK1;
+			if(lpObj->Class >= 57 && lpObj->Class <= 63)
+			{
+				pMsg.action = 0;
+			}
+			else
+			{
+				pMsg.action = ACTION_ATTACK2;
+			}
 
 			pMsg.dir = lpObj->Dir;
 

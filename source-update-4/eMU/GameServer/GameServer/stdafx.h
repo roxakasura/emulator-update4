@@ -50,6 +50,8 @@
 #endif
 
 #define TARCISIO 1
+#define LUCIANO 0
+#define VICTOR 0
 #define ALGOQUEVOUUSARUMDIA 0
 #define MUSIGN 0
 #define WILLIAMCUSTOM 0
